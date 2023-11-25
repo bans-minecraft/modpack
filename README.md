@@ -8,7 +8,7 @@ The next release of the mod-pack is planned to have the following.
 
 **Migrate to Minecraft v1.20.1** We are currently waiting for the following mods to release their new versions.
 
-- [ ] Waiting for [[#Botania 😓]] to cut their 1.20.1[^1] release
+- [ ] Waiting for [[#Botania]] to cut their 1.20.1[^1] release
 - [ ] Seems that [[#AutoRegLib 🪦]] is dead 😥
 - [ ] Waiting for [[#Quark 😓]] to cut their 1.20.1[^2] release
 - [ ] Waiting for [[#CoFH Core 😓]] core to cut their 1.20.1[^3] release
