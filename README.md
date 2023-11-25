@@ -1,6 +1,6 @@
 # Mod Pack for Ban's Minecraft Server
 
-- Current Release: [2023-11-15](#)
+- Current Release: [2023-11-15](https://git.blakerain.com/bans-minecraft/modpack/releases/tag/2023-11-15)
 - Minecraft Version: 1.19.2
 - Forge Version: 43.3.5
 
@@ -47,7 +47,7 @@ Upgraded the following mods:
 
 - **Xaero's Minimap** upgraded to v23.5.0
 
---
+---
 
 # Mod Files
 
