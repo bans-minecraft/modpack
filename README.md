@@ -1,6 +1,6 @@
 # Mod Pack for Ban's Minecraft Server
 
-- Current Release: [2023-11-15](https://git.blakerain.com/bans-minecraft/modpack/releases/tag/2023-11-15)
+- Current Release: [2023-11-26](https://git.blakerain.com/bans-minecraft/modpack/releases/tag/2023-11-26)
 - Minecraft Version: 1.19.2
 - Forge Version: 43.3.5
 
@@ -14,12 +14,12 @@ The next release of the mod-pack is planned to have the following.
 - [ ] Seems that AutoRegLib is dead 😥
 - [ ] Waiting for Quark to cut their 1.20.1 release
 - [ ] Waiting for CoFH Core core to cut their 1.20.1 release
-- [ ] Still trying to find out what is going on with Glassential. For now it seems that we'll replace this.
+- [x] Still trying to find out what is going on with Glassential. For now it seems that we'll replace this.
 - [ ] Gauges and Switches seems to be dead, as it has been archived by the developer. 🪦
 
 **New Mods** New mods that will be added in the next release:
 
-- [ ] Add [our own mod](https://git.blakerain.com/bans-minecraft/utamacraft) 🤩 that will contain our custom functionality. This will initially include the [ethereal glass](https://git.blakerain.com/bans-minecraft/utamacraft/issues/1) clone.
+- [x] Add [our own mod](https://git.blakerain.com/bans-minecraft/utamacraft) 🤩 that will contain our custom functionality. This will initially include the [ethereal glass](https://git.blakerain.com/bans-minecraft/utamacraft/issues/1) clone.
 - [ ] Add [MOA DECOR: LIGHTS](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-lights)
 - [ ] Add [MOA DECOR: GARDEN](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-garden)
 - [ ] Add [MOA DECOR: ART](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-art)
@@ -27,7 +27,17 @@ The next release of the mod-pack is planned to have the following.
 
 # Previous Releases
 
-## 2023-11-15 (Current Version)
+## 2023-11-26 (Current Version)
+
+Remove the following mods:
+
+- Removed _Glassential_ as it is no longer being updated.
+
+Added the following mods:
+
+- Added [Utamacraft](https://git.blakerain.com/bans-minecraft/utamacraft) v0.0.1 🤩
+
+## 2023-11-15
 
 Added the following changes:
 

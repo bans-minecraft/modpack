@@ -1,4 +1,4 @@
-Current Release: 2023-11-15
+Current Release: 2023-11-26
 Minecraft Version: 1.19.2 (see the [[#Minecraft Version]] for more information)
 Forge Version: 43.3.5
 
@@ -12,7 +12,7 @@ The next release of the mod-pack is planned to have the following.
 - [ ] Seems that [[#AutoRegLib 🪦]] is dead 😥
 - [ ] Waiting for [[#Quark 😓]] to cut their 1.20.1[^2] release
 - [ ] Waiting for [[#CoFH Core 😓]] core to cut their 1.20.1[^3] release
-- [ ] Still trying to find out what is going on with [[#Glassential]][^4]. For now it seems that we'll replace this.
+- [x] Still trying to find out what is going on with [[#Glassential]][^4]. For now it seems that we'll replace this.
 - [ ] [[#Gauges and Switches 🪦]] looks like it's dead, as it has been archived.
 
 **New Mods** New mods that will be added in the next release:
@@ -25,7 +25,17 @@ The next release of the mod-pack is planned to have the following.
 
 # Previous Releases
 
-## 2023-11-15 (Current Version)
+## 2023-11-26 (Current Version)
+
+Remove the following mods:
+
+- Removed _Glassential_ as it is no longer being updated.
+
+Added the following mods:
+
+- Added [[#Utamacraft 🤩]] v0.0.1
+
+## 2023-11-15
 
 Added the following changes:
 
@@ -720,17 +730,6 @@ Mod File: geckolib-forge-1.19-3.1.40.jar
 http://geckolib.com/
 https://www.curseforge.com/minecraft/mc-mods/geckolib
 
-# Glassential
-
-```
-Mod ID  : glassential
-Mod File: glassential-forge-1.19-1.2.4.jar
-```
-
-https://www.curseforge.com/minecraft/mc-mods/glassential
-
-Has not seen any changes since [July 2022](https://github.com/Lykrast/Glassential) which does not fill me with confidence we're going to see a 1.20.1 release.
-
 
 # Guard Villagers
 
@@ -1179,7 +1178,9 @@ Mod File: utamacraft-forge-1.19.2-1.0.0.jar
 
 https://git.blakerain.com/bans-minecraft/utamacraft
 
-A mod that provides specific functionality for this server.
+A mod that provides specific functionality for this server. This mod provides the following:
+
+- _Ethereal Glass_ which does not collide with the player.
 
 # Waystones
 
@@ -1196,91 +1197,92 @@ Teleport back to activated waystones. For Survival, Adventure or Servers.
 
 # Mod Files
 
-| Mod | Jar File |
-| --- | --- |
-| Advanced Peripherals | `AdvancedPeripherals-1.19.2-0.7.28r.jar` |
-| Apotheosis | `Apotheosis-1.19.2-6.2.1.jar` |
-| Aquaculture 2 | `Aquaculture-1.19.2-2.4.8.jar` |
-| AutoRegLib | `AutoRegLib-1.8.2-55.jar` |
-| BetterF3 | `BetterF3-4.0.0-Forge-1.19.2.jar` |
-| Bookshelf | `Bookshelf-Forge-1.19.2-16.3.20.jar` |
-| Botania | `Botania-1.19.2-439-FORGE.jar` |
-| BotanyPots | `BotanyPots-Forge-1.19.2-9.0.33.jar` |
-| BotanyTrees | `BotanyTrees-Forge-1.19.2-5.0.8.jar` |
-| Clumps | `Clumps-forge-1.19.2-9.0.0+14.jar` |
-| Gateways To Eternity | `GatewaysToEternity-1.19.2-3.2.0.jar` |
-| Jade | `Jade-1.19.1-forge-8.8.1.jar` |
-| MOA DECOR: BATH | `MOAdecor+BATH+1.19.2.jar` |
-| MOA DECOR: SCIENCE | `MOAdecor+SCIENCE+1.19.2.jar` |
-| Mekanism | `Mekanism-1.19.2-10.3.8.477.jar` |
-| Mekanism: Generators | `MekanismGenerators-1.19.2-10.3.8.477.jar` |
-| Mekanism: Tools | `MekanismTools-1.19.2-10.3.8.477.jar` |
-| Mouse Tweaks | `MouseTweaks-forge-mc1.19-2.23.jar` |
-| OpenStairs | `Open+Stairs+1.19.2+v1.jar` |
-| Patchouli | `Patchouli-1.19.2-77.jar` |
-| Placebo | `Placebo-1.19.2-7.2.0.jar` |
-| Quark | `Quark-3.4-402.jar` |
-| Repair Anvil | `Repair+Anvil+1.2.0+1.19+Forge.jar` |
-| Storage Drawers | `StorageDrawers-1.19-11.1.2.jar` |
-| TerraBlender | `TerraBlender-forge-1.19.2-2.0.1.136.jar` |
-| Tool Belt | `ToolBelt-1.19.2-1.19.7.jar` |
-| Xaero's Minimap | `Xaeros_Minimap_23.5.0_Forge_1.19.1.jar` |
-| Ars Elemental | `ars_elemental-1.19.2-0.5.9.1.0.jar` |
-| Ars Nouveau | `ars_nouveau-1.19.2-3.15.1.jar` |
-| Artifacts | `artifacts-1.19.2-5.0.2.jar` |
-| Balm | `balm-forge-1.19.2-4.5.7.jar` |
-| Blue Skies | `blue_skies-1.19.2-1.3.20.jar` |
-| Caelus API | `caelus-forge-1.19.2-3.0.0.6.jar` |
-| Canary | `canary-mc1.19.2-0.2.7.jar` |
-| Carry On | `carryon-forge-1.19.2-2.0.5.16.jar` |
-| CC: Tweaked | `cc-tweaked-1.19.2-1.101.2.jar` |
-| MrCrayfish's Furniture Mod | `cfm-7.0.0-pre35-1.19.2.jar` |
-| Chunk Loaders | `chunkloaders-1.2.3-forge-mc1.19.jar` |
-| Cloth Config v8 API | `cloth-config-8.2.88-forge.jar` |
-| CoFH Core | `cofh_core-1.19.2-10.2.1.40.jar` |
-| Comforts | `comforts-forge-6.0.5+1.19.2.jar` |
-| Crafting On A Stick | `crafting-on-a-stick-1.19.2-1.0.5.jar` |
-| Create | `create-1.19.2-0.5.1.b.jar` |
-| Create Crafts & Additions | `createaddition-1.19.2-20230527a.jar` |
-| Creeper Overhaul | `creeperoverhaul-2.0.9-forge.jar` |
-| Curios API | `curios-forge-1.19.2-5.1.4.1.jar` |
-| Elytra Slot | `elytraslot-forge-6.1.1+1.19.2.jar` |
-| GeckoLib | `geckolib-forge-1.19-3.1.40.jar` |
-| Glassential | `glassential-forge-1.19-1.2.4.jar` |
-| Guard Villagers | `guardvillagers-1.19.2-1.5.6.jar` |
-| Just Enough Items | `jei-1.19.2-forge-11.6.0.1015.jar` |
-| Jumpy Boats | `jumpboat-1.19-0.1.0.5.jar` |
-| Little Logistics | `littlelogistics-mc1.19.2-v1.3.2.jar` |
-| Macaw's Bridges | `mcw-bridges-2.0.7-mc1.19.2forge.jar` |
-| Macaw's Doors | `mcw-doors-1.0.9forge-mc1.19.2.jar` |
-| Macaw's Fences and Walls | `mcw-fences-1.0.7-mc1.19.2forge.jar` |
-| Macaw's Furniture | `mcw-furniture-3.1.0-mc1.19.2forge.jar` |
-| Macaw's Lights and Lamps | `mcw-lights-1.0.5-mc1.19.2forge.jar` |
-| Macaw's Paintings | `mcw-paintings-1.0.4-mc1.19.2.jar` |
-| Macaw's Paths and Pavings | `mcw-paths-1.0.3forge-mc1.19.2.jar` |
-| Macaw's Roofs | `mcw-roofs-2.2.3-mc1.19.2forge.jar` |
-| Macaw's Trapdoors | `mcw-trapdoors-1.1.0-mc1.19.2forge.jar` |
-| Macaw's Windows | `mcw-windows-2.1.1-mc1.19.2forge.jar` |
-| Naturalist | `naturalist-forge-3.0.3a-1.19.2.jar` |
-| Oculus | `oculus-mc1.19.2-1.6.4.jar` |
-| Polymorph | `polymorph-forge-0.46.1+1.19.2.jar` |
-| Refined Storage | `refinedstorage-1.11.6.jar` |
-| Resourcefulconfig | `resourcefulconfig-forge-1.19.2-1.0.20.jar` |
-| Gauges and Switches | `rsgauges-1.19.2-forge-1.2.19.jar` |
-| RSRequestify | `rsrequestify-2.3.0.jar` |
-| Rubidium | `rubidium-0.6.2b.jar` |
-| Structure Gel API | `structure_gel-1.19.2-2.7.2.jar` |
+| Mod                              | Jar File                                           |
+| -------------------------------- | -------------------------------------------------- |
+| Advanced Peripherals             | `AdvancedPeripherals-1.19.2-0.7.28r.jar`           |
+| Apotheosis                       | `Apotheosis-1.19.2-6.2.1.jar`                      |
+| Aquaculture 2                    | `Aquaculture-1.19.2-2.4.8.jar`                     |
+| AutoRegLib                       | `AutoRegLib-1.8.2-55.jar`                          |
+| BetterF3                         | `BetterF3-4.0.0-Forge-1.19.2.jar`                  |
+| Bookshelf                        | `Bookshelf-Forge-1.19.2-16.3.20.jar`               |
+| Botania                          | `Botania-1.19.2-439-FORGE.jar`                     |
+| BotanyPots                       | `BotanyPots-Forge-1.19.2-9.0.33.jar`               |
+| BotanyTrees                      | `BotanyTrees-Forge-1.19.2-5.0.8.jar`               |
+| Clumps                           | `Clumps-forge-1.19.2-9.0.0+14.jar`                 |
+| Gateways To Eternity             | `GatewaysToEternity-1.19.2-3.2.0.jar`              |
+| Jade                             | `Jade-1.19.1-forge-8.8.1.jar`                      |
+| MOA DECOR: BATH                  | `MOAdecor+BATH+1.19.2.jar`                         |
+| MOA DECOR: SCIENCE               | `MOAdecor+SCIENCE+1.19.2.jar`                      |
+| Mekanism                         | `Mekanism-1.19.2-10.3.8.477.jar`                   |
+| Mekanism: Generators             | `MekanismGenerators-1.19.2-10.3.8.477.jar`         |
+| Mekanism: Tools                  | `MekanismTools-1.19.2-10.3.8.477.jar`              |
+| Mouse Tweaks                     | `MouseTweaks-forge-mc1.19-2.23.jar`                |
+| OpenStairs                       | `Open+Stairs+1.19.2+v1.jar`                        |
+| Patchouli                        | `Patchouli-1.19.2-77.jar`                          |
+| Placebo                          | `Placebo-1.19.2-7.2.0.jar`                         |
+| Quark                            | `Quark-3.4-402.jar`                                |
+| Repair Anvil                     | `Repair+Anvil+1.2.0+1.19+Forge.jar`                |
+| Storage Drawers                  | `StorageDrawers-1.19-11.1.2.jar`                   |
+| TerraBlender                     | `TerraBlender-forge-1.19.2-2.0.1.136.jar`          |
+| Tool Belt                        | `ToolBelt-1.19.2-1.19.7.jar`                       |
+| Xaero's Minimap                  | `Xaeros_Minimap_23.5.0_Forge_1.19.1.jar`           |
+| Ars Elemental                    | `ars_elemental-1.19.2-0.5.9.1.0.jar`               |
+| Ars Nouveau                      | `ars_nouveau-1.19.2-3.15.1.jar`                    |
+| Artifacts                        | `artifacts-1.19.2-5.0.2.jar`                       |
+| Balm                             | `balm-forge-1.19.2-4.5.7.jar`                      |
+| Blue Skies                       | `blue_skies-1.19.2-1.3.20.jar`                     |
+| Caelus API                       | `caelus-forge-1.19.2-3.0.0.6.jar`                  |
+| Canary                           | `canary-mc1.19.2-0.2.7.jar`                        |
+| Carry On                         | `carryon-forge-1.19.2-2.0.5.16.jar`                |
+| CC: Tweaked                      | `cc-tweaked-1.19.2-1.101.2.jar`                    |
+| MrCrayfish's Furniture Mod       | `cfm-7.0.0-pre35-1.19.2.jar`                       |
+| Chunk Loaders                    | `chunkloaders-1.2.3-forge-mc1.19.jar`              |
+| Cloth Config v8 API              | `cloth-config-8.2.88-forge.jar`                    |
+| CoFH Core                        | `cofh_core-1.19.2-10.2.1.40.jar`                   |
+| Comforts                         | `comforts-forge-6.0.5+1.19.2.jar`                  |
+| Crafting On A Stick              | `crafting-on-a-stick-1.19.2-1.0.5.jar`             |
+| Create                           | `create-1.19.2-0.5.1.b.jar`                        |
+| Create Crafts & Additions        | `createaddition-1.19.2-20230527a.jar`              |
+| Creeper Overhaul                 | `creeperoverhaul-2.0.9-forge.jar`                  |
+| Curios API                       | `curios-forge-1.19.2-5.1.4.1.jar`                  |
+| Elytra Slot                      | `elytraslot-forge-6.1.1+1.19.2.jar`                |
+| GeckoLib                         | `geckolib-forge-1.19-3.1.40.jar`                   |
+| Glassential                      | `glassential-forge-1.19-1.2.4.jar`                 |
+| Guard Villagers                  | `guardvillagers-1.19.2-1.5.6.jar`                  |
+| Just Enough Items                | `jei-1.19.2-forge-11.6.0.1015.jar`                 |
+| Jumpy Boats                      | `jumpboat-1.19-0.1.0.5.jar`                        |
+| Little Logistics                 | `littlelogistics-mc1.19.2-v1.3.2.jar`              |
+| Macaw's Bridges                  | `mcw-bridges-2.0.7-mc1.19.2forge.jar`              |
+| Macaw's Doors                    | `mcw-doors-1.0.9forge-mc1.19.2.jar`                |
+| Macaw's Fences and Walls         | `mcw-fences-1.0.7-mc1.19.2forge.jar`               |
+| Macaw's Furniture                | `mcw-furniture-3.1.0-mc1.19.2forge.jar`            |
+| Macaw's Lights and Lamps         | `mcw-lights-1.0.5-mc1.19.2forge.jar`               |
+| Macaw's Paintings                | `mcw-paintings-1.0.4-mc1.19.2.jar`                 |
+| Macaw's Paths and Pavings        | `mcw-paths-1.0.3forge-mc1.19.2.jar`                |
+| Macaw's Roofs                    | `mcw-roofs-2.2.3-mc1.19.2forge.jar`                |
+| Macaw's Trapdoors                | `mcw-trapdoors-1.1.0-mc1.19.2forge.jar`            |
+| Macaw's Windows                  | `mcw-windows-2.1.1-mc1.19.2forge.jar`              |
+| Naturalist                       | `naturalist-forge-3.0.3a-1.19.2.jar`               |
+| Oculus                           | `oculus-mc1.19.2-1.6.4.jar`                        |
+| Polymorph                        | `polymorph-forge-0.46.1+1.19.2.jar`                |
+| Refined Storage                  | `refinedstorage-1.11.6.jar`                        |
+| Resourcefulconfig                | `resourcefulconfig-forge-1.19.2-1.0.20.jar`        |
+| Gauges and Switches              | `rsgauges-1.19.2-forge-1.2.19.jar`                 |
+| RSRequestify                     | `rsrequestify-2.3.0.jar`                           |
+| Rubidium                         | `rubidium-0.6.2b.jar`                              |
+| Structure Gel API                | `structure_gel-1.19.2-2.7.2.jar`                   |
 | SuperMartijn642's Config Library | `supermartijn642configlib-1.1.6b-forge-mc1.19.jar` |
-| SuperMartijn642's Core Lib | `supermartijn642corelib-1.1.9a-forge-mc1.19.2.jar` |
-| Thermal Cultivation | `thermal_cultivation-1.19.2-10.2.0.17.jar` |
-| Thermal Expansion | `thermal_expansion-1.19.2-10.2.0.21.jar` |
-| Thermal Foundation | `thermal_foundation-1.19.2-10.2.0.47.jar` |
-| Thermal Innovation | `thermal_innovation-1.19.2-10.2.0.18.jar` |
-| Thermal Integration | `thermal_integration-1.19.2-10.2.0.17.jar` |
-| Thermal Locomotion | `thermal_locomotion-1.19.2-10.2.0.14.jar` |
-| Trash Cans | `trashcans-1.0.17a-forge-mc1.19.jar` |
-| TrashSlot | `trashslot-forge-1.19-12.0.2.jar` |
-| Waystones | `waystones-forge-1.19.2-11.4.0.jar` |
+| SuperMartijn642's Core Lib       | `supermartijn642corelib-1.1.9a-forge-mc1.19.2.jar` |
+| Thermal Cultivation              | `thermal_cultivation-1.19.2-10.2.0.17.jar`         |
+| Thermal Expansion                | `thermal_expansion-1.19.2-10.2.0.21.jar`           |
+| Thermal Foundation               | `thermal_foundation-1.19.2-10.2.0.47.jar`          |
+| Thermal Innovation               | `thermal_innovation-1.19.2-10.2.0.18.jar`          |
+| Thermal Integration              | `thermal_integration-1.19.2-10.2.0.17.jar`         |
+| Thermal Locomotion               | `thermal_locomotion-1.19.2-10.2.0.14.jar`          |
+| Trash Cans                       | `trashcans-1.0.17a-forge-mc1.19.jar`               |
+| TrashSlot                        | `trashslot-forge-1.19-12.0.2.jar`                  |
+| Utamacraft                       | `utamacraft-0.0.1-1.19.jar`                        |
+| Waystones                        | `waystones-forge-1.19.2-11.4.0.jar`                |
 
 
 # Minecraft Version
@@ -1330,7 +1332,6 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#Create Crafts & Additions]]  | ✓      |        |        | ✓      |
 | [[#Creeper Overhaul]]           | ✓      |        |        | ✓      |
 | [[#Elytra Slot]]                | ✓      | ✓      | ✓      | ✓      |
-| [[#Glassential]]                | 😓     |        |        | ✓      |
 | [[#Guard Villagers]]            | ✓      | ✓      | ✓      | ✓      |
 | [[#Just Enough Items]]          | ✓      | ✓      | ✓      | ✓      |
 | [[#Jumpy Boats]]                | ✓      | ✓      | ✓      | ✓      |
@@ -1359,7 +1360,7 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#Thermal Locomotion]][^3]     | 😓     |        |        | ✓      |
 | [[#Trash Cans]]                 | ✓      | ✓      | ✓      | ✓      |
 | [[#TrashSlot]]                  | ✓      | ✓      | ✓      | ✓      |
-| [[#Utamacraft 🤩]]              |        |        |        |        |
+| [[#Utamacraft 🤩]]              |        |        |        | ✓      |
 | [[#Waystones]]                  | ✓      | ✓      | ✓      | ✓      |
 
 
