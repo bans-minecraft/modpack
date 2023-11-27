@@ -27,7 +27,12 @@ The next release of the mod-pack is planned to have the following.
 
 # Previous Releases
 
-## 2023-11-26 (Current Version)
+## 2023-11-27 (Current Version)
+
+- Updated the [[#Utamacraft 🤩]] mod to v0.1.0.
+- Bumped CC-Tweaked to 1.19.2-1.101.3
+
+## 2023-11-26
 
 Remove the following mods:
 

@@ -17,7 +17,7 @@ The next release of the mod-pack is planned to have the following.
 
 **New Mods** New mods that will be added in the next release:
 
-- [ ] Add [our own mod](https://git.blakerain.com/bans-minecraft/utamacraft) 🤩 that will contain our custom functionality. This will initially include the [ethereal glass](https://git.blakerain.com/bans-minecraft/utamacraft/issues/1) clone.
+- [x] Add [our own mod](https://git.blakerain.com/bans-minecraft/utamacraft) 🤩 that will contain our custom functionality. This will initially include the [ethereal glass](https://git.blakerain.com/bans-minecraft/utamacraft/issues/1) clone.
 - [ ] Add [MOA DECOR: LIGHTS](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-lights)
 - [ ] Add [MOA DECOR: GARDEN](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-garden)
 - [ ] Add [MOA DECOR: ART](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-art)
@@ -25,7 +25,12 @@ The next release of the mod-pack is planned to have the following.
 
 # Previous Releases
 
-## 2023-11-26 (Current Version)
+## 2023-11-27 (Current Version)
+
+- Updated the [[#Utamacraft 🤩]] mod to v0.1.0.
+- Bumped CC-Tweaked to 1.19.2-1.101.3
+
+## 2023-11-26
 
 Remove the following mods:
 
@@ -58,6 +63,7 @@ Upgraded the following mods:
 ---
 
 > [!NOTE]- Currently Available Mods
+>
 > - [[Ban's Modded Server#Advanced Peripherals|Advanced Peripherals]]
 > - [[Ban's Modded Server#Apotheosis|Apotheosis]]
 > - [[Ban's Modded Server#Aquaculture 2|Aquaculture 2]]
@@ -151,6 +157,7 @@ Mod File: AdvancedPeripherals-1.19.2-0.7.28r.jar
 
 https://docs.srendi.de/
 https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
+
 # Apotheosis
 
 ```
@@ -161,6 +168,7 @@ Version : 6.2.1
 
 All things that should have been.
 https://www.curseforge.com/minecraft/mc-mods/apotheosis
+
 # Aquaculture 2
 
 ```
@@ -197,6 +205,7 @@ Better F3 for Minecraft Forge
 Replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.
 
 The creator would like to thank:
+
 - cominixo for creating the Fabric version of the mod
 - Nirewen for creating the icon
 
@@ -238,7 +247,6 @@ https://www.curseforge.com/minecraft/mc-mods/botany-pots
 
 Pots for growing different types of plants.
 
-
 # BotanyTrees
 
 ```
@@ -251,7 +259,6 @@ https://www.curseforge.com/minecraft/mc-mods/botany-trees
 
 Allows Botany Pots to grow trees.
 
-
 # Clumps
 
 ```
@@ -263,7 +270,6 @@ https://www.curseforge.com/minecraft/mc-mods/clumps
 
 Clumps xp orbs together.
 
-
 # Gateways To Eternity
 
 ```
@@ -274,7 +280,7 @@ Version : 3.2.0
 
 https://www.curseforge.com/minecraft/mc-mods/gateways-to-eternity
 
-Invoke that from the dark beyond.  Let it pour into this world.  A mod about creating temporary mob spawners in the form of portals.
+Invoke that from the dark beyond. Let it pour into this world. A mod about creating temporary mob spawners in the form of portals.
 
 # Jade
 
@@ -358,7 +364,6 @@ https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks
 
 A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.
 
-
 # OpenStairs
 
 ```
@@ -380,7 +385,6 @@ Mod File: Patchouli-1.19.2-77.jar
 https://www.curseforge.com/minecraft/mc-mods/patchouli
 
 Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers
-
 
 # Placebo
 
@@ -434,7 +438,6 @@ https://www.curseforge.com/minecraft/mc-mods/storage-drawers
 
     Multi-drawer storage blocks for quick storage and retrieval.
 
-
 # TerraBlender
 
 ```
@@ -459,7 +462,7 @@ https://www.curseforge.com/minecraft/mc-mods/tool-belt
 
 ```
 Mod ID  : turtlematic
-Mod File: 
+Mod File:
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/turtlematic
@@ -540,7 +543,6 @@ https://www.curseforge.com/minecraft/mc-mods/caelus
 
 A coremod and API to provide developers access to elytra flight mechanics through an entity attribute.
 
-
 # Canary
 
 ```
@@ -574,7 +576,6 @@ https://tweaked.cc
 https://www.curseforge.com/minecraft/mc-mods/cc-tweaked
 
 CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft.
-
 
 # MrCrayfish's Furniture Mod
 
@@ -613,7 +614,6 @@ https://www.curseforge.com/minecraft/mc-mods/cloth-config
 
 An API for config screens.
 
-
 # CoFH Core 😓
 
 ```
@@ -629,7 +629,6 @@ Core Library required for the functionality of all CoFH mods.
 
 Also contains a number of optional gameplay tweaks for convenience.
 
-
 # Comforts
 
 ```
@@ -643,7 +642,6 @@ https://www.curseforge.com/minecraft/mc-mods/comforts
 Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns.
 Comes in 16 different colors!
 
-
 # Crafting On A Stick
 
 ```
@@ -656,16 +654,15 @@ https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick
 
 This mod adds multiple workbenches on a stick:
 
- - Crafting Table
- - Anvil
- - Loom
- - Grindstone
- - Grindstone
- - Cartography Table
- - Cartography Table
- - Stonecutter
- - Smithing Table
-
+- Crafting Table
+- Anvil
+- Loom
+- Grindstone
+- Grindstone
+- Cartography Table
+- Cartography Table
+- Stonecutter
+- Smithing Table
 
 # Create
 
@@ -719,7 +716,6 @@ https://www.curseforge.com/minecraft/mc-mods/elytra-slot
 
 Adds an accessory slot for the elytra so you can fly and wear chest armor at the same time.
 
-
 # GeckoLib
 
 ```
@@ -729,7 +725,6 @@ Mod File: geckolib-forge-1.19-3.1.40.jar
 
 http://geckolib.com/
 https://www.curseforge.com/minecraft/mc-mods/geckolib
-
 
 # Guard Villagers
 
@@ -752,7 +747,6 @@ https://www.curseforge.com/minecraft/mc-mods/jei
 
 JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.
 
-
 # Jumpy Boats
 
 ```
@@ -765,7 +759,6 @@ https://www.curseforge.com/minecraft/mc-mods/jumpy-boats
 Makes it possible to jump a little while in a boat to transition from water to ground.
 
 See if you can find a boat.
-
 
 # Little Logistics
 
@@ -795,8 +788,6 @@ Acknowledgements:
 For Entity Spring: https://github.com/jglrxavpok
 For logo help: https://github.com/tenmyouji
 For artwork: https://twitter.com/danfront2
-
-
 
 # Macaw's Bridges
 
@@ -930,7 +921,6 @@ https://www.curseforge.com/minecraft/mc-mods/naturalist
 
 Enhances the overworld by adding new wildlife with unique behavior!
 
-
 # Oculus
 
 ```
@@ -942,7 +932,6 @@ Version : 1.6.4
 https://www.curseforge.com/minecraft/mc-mods/oculus
 
 Unofficial Fork of "Iris", made to work with FML
-
 
 # Polymorph
 
@@ -956,7 +945,6 @@ https://www.curseforge.com/minecraft/mc-mods/polymorph
 
 No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.
 
-
 # Refined Storage
 
 ```
@@ -969,7 +957,6 @@ https://refinedmods.com/refined-storage
 https://www.curseforge.com/minecraft/mc-mods/refined-storage
 
 An elegant solution to your hoarding problem
-
 
 # Resourcefulconfig
 
@@ -1022,7 +1009,6 @@ https://www.curseforge.com/minecraft/mc-mods/rubidium
 
 Rubidium is a Unofficial Fork of the Sodium maked to work on FML.
 
-
 # Structure Gel API
 
 ```
@@ -1073,7 +1059,6 @@ Thermal gets agrarian!
 
 Contains the "farm" of the Thermal Series - various crops, foods, and associated gadgetry.
 
-
 # Thermal Expansion
 
 ```
@@ -1086,7 +1071,6 @@ https://teamcofh.com/
 Expanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology!
 
 Contains the "factory" of the Thermal Series - Dynamos and Machines to both produce and process.
-
 
 # Thermal Foundation
 
@@ -1101,7 +1085,6 @@ The Foundation of a Thermally Expanding World!
 
 Contains the ores and world generation for the Thermal Series.
 
-
 # Thermal Innovation
 
 ```
@@ -1114,7 +1097,6 @@ https://teamcofh.com/
 Thermal Technology marches on. Adds Thermal-style tools and equipment!
 
 Contains player-centric power - useful tools, gadgets, and armor.
-
 
 # Thermal Integration
 
@@ -1129,7 +1111,6 @@ Integrating Thermal with the wider modded ecosystem!
 
 Contains Thermal machine recipes and compatibility for many different mods.
 
-
 # Thermal Locomotion
 
 ```
@@ -1142,7 +1123,6 @@ https://teamcofh.com/
 Thermal hits the tracks!
 
 Contains the "railyard" of the Thermal Series - Rails and Minecarts to expand rail-centric gameplay.
-
 
 # Trash Cans
 
@@ -1168,7 +1148,6 @@ https://www.curseforge.com/minecraft/mc-mods/trashslot
 
 Adds a trash slot to the inventory screen that allows deletion of unwanted items.
 
-
 # Utamacraft 🤩
 
 ```
@@ -1193,7 +1172,6 @@ https://blay09.net/mods/waystones
 https://www.curseforge.com/minecraft/mc-mods/waystones
 
 Teleport back to activated waystones. For Survival, Adventure or Servers.
-
 
 # Mod Files
 
@@ -1284,12 +1262,12 @@ Teleport back to activated waystones. For Survival, Adventure or Servers.
 | Utamacraft                       | `utamacraft-0.0.1-1.19.jar`                        |
 | Waystones                        | `waystones-forge-1.19.2-11.4.0.jar`                |
 
-
 # Minecraft Version
 
 The current version of Minecraft for this mod-pack is: `1.19.2`
 
 The version of Minecraft is selected based on the available versions of mods. Not all mods support all versions of Minecraft. The following tables show the mods from this mod-pack and the versions of Minecraft that are supported.
+
 ## Mod Minecraft Versions
 
 | Mod                             | 1.20.1 | 1.19.4 | 1.19.3 | 1.19.2 |
@@ -1363,7 +1341,6 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#Utamacraft 🤩]]              |        |        |        | ✓      |
 | [[#Waystones]]                  | ✓      | ✓      | ✓      | ✓      |
 
-
 [^1]: Botania's [Changelog](https://botaniamod.net/changelog.html) shows that a 1.20.1 release is due to be cut soon. This will help us move the server over to Minecraft 1.20.1.
 [^2]: The update to Quark is still pending.
 [^3]: CoFH core and all Thermal update is still pending.
@@ -1389,4 +1366,3 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#Structure Gel API]]                | ✓      | ✓      | ✓      | ✓      |
 | [[#SuperMartijn642's Core Lib]]       | ✓      | ✓      | ✓      | ✓      |
 | [[#SuperMartijn642's Config Library]] | ✓      | ✓      | ✓      | ✓      |
-
