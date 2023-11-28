@@ -1,4 +1,4 @@
-Current Release: 2023-11-26
+Current Release: 2023-11-28
 Minecraft Version: 1.19.2 (see the [[#Minecraft Version]] for more information)
 Forge Version: 43.3.5
 
@@ -8,26 +8,35 @@ The next release of the mod-pack is planned to have the following.
 
 **Migrate to Minecraft v1.20.1** We are currently waiting for the following mods to release their new versions.
 
-- [ ] Waiting for [[#Botania 😓]] to cut their 1.20.1[^1] release
+- ~~Waiting for [[#Botania 😓]] to cut their 1.20.1[^1] release~~
 - [ ] Seems that [[#AutoRegLib 🪦]] is dead 😥
 - [ ] Waiting for [[#Quark 😓]] to cut their 1.20.1[^2] release
 - [ ] Waiting for [[#CoFH Core 😓]] core to cut their 1.20.1[^3] release
 - [x] Still trying to find out what is going on with [[#Glassential]][^4]. For now it seems that we'll replace this.
-- [ ] [[#Gauges and Switches 🪦]] looks like it's dead, as it has been archived.
+- [x] [[#Gauges and Switches 🪦]] looks like it's dead, as it has been archived.
+- [x] Removal of [[#Thermal Expansion]] and so on
+- [ ] Removal of [[#Botania 😓]]
 
 **New Mods** New mods that will be added in the next release:
 
 - [x] Add [our own mod](https://git.blakerain.com/bans-minecraft/utamacraft) 🤩 that will contain our custom functionality. This will initially include the [ethereal glass](https://git.blakerain.com/bans-minecraft/utamacraft/issues/1) clone.
-- [ ] Add [MOA DECOR: LIGHTS](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-lights)
-- [ ] Add [MOA DECOR: GARDEN](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-garden)
-- [ ] Add [MOA DECOR: ART](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-art)
-- [ ] Add [MOA DECOR: COOKERY](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-cookery)
+- [x] Add [MOA DECOR: LIGHTS](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-lights)
+- [x] Add [MOA DECOR: GARDEN](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-garden)
+- [x] Add [MOA DECOR: ART](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-art)
+- [x] Add [MOA DECOR: COOKERY](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-cookery)
+- [ ] Add [Mekanism Additions](https://www.curseforge.com/minecraft/mc-mods/mekanism-additions)
+- [ ] Add [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools)
 
 # Previous Releases
 
-## 2023-11-27 (Current Version)
+## 2023-11-28 (Current Version)
 
-- Updated the [[#Utamacraft 🤩]] mod to v0.1.0.
+- Update the Utamacraft mod to v0.1.1 (a bug fix release).
+- Remove the Thermal mods.
+
+## 2023-11-27
+
+- Updated the Utamacraft mod to v0.1.0.
 - Bumped CC-Tweaked to 1.19.2-1.101.3
 
 ## 2023-11-26
@@ -38,7 +47,7 @@ Remove the following mods:
 
 Added the following mods:
 
-- Added [[#Utamacraft 🤩]] v0.0.1
+- Added [[#Utamacraft]] v0.0.1
 
 ## 2023-11-15
 
@@ -313,6 +322,38 @@ Version : 1.19.2
 ```
 
 https://mcreator.net
+
+# MOA DECOR: LIGHTS
+
+```
+Mod ID  : moa_decor_lights
+Mod File: MOADecor+LIGHTS+1.19.2.jar
+Version : 1.19.2
+```
+
+# MOA DECOR: ART
+
+```
+Mod ID  : moa_decor_art
+Mod File: MOADecor+ART+1.19.2.jar
+Version : 1.19.2
+```
+
+# MOA DECOR: COOKERY
+
+```
+Mod ID  : moa_decor_cookery
+Mod File: MOADecor+COOKERY+1.19.2.jar
+Version : 1.19.2
+```
+
+# MOA DECOR: GARDEN
+
+```
+Mod ID  : moa_decor_garden
+Mod File: MOADecor+GARDEN+1.19.2.jar
+Version : 1.19.2
+```
 
 # Mekanism
 
@@ -774,16 +815,6 @@ https://www.curseforge.com/minecraft/mc-mods/little-logistics
 Adds water logistics: Tugs and Barges!
 See the homepage for usage instructions.
 
-Modpack use:
-
-You may include this mod in your modpack and distribute the modpack without restrictions.
-You may modify and distribute this mod in accordance with the LGPLv3.
-
-License:
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
-
 Acknowledgements:
 For Entity Spring: https://github.com/jglrxavpok
 For logo help: https://github.com/tenmyouji
@@ -1045,85 +1076,6 @@ https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib
 
 SuperMartijn642's Core Lib adds lots of basic implementations for guis that allow for similar code between Minecraft 1.12, 1.14, 1.15, and 1.16!
 
-# Thermal Cultivation
-
-```
-Mod ID  : thermal_cultivation
-Mod File: thermal_cultivation-1.19.2-10.2.0.17.jar
-```
-
-https://teamcofh.com/
-https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation
-
-Thermal gets agrarian!
-
-Contains the "farm" of the Thermal Series - various crops, foods, and associated gadgetry.
-
-# Thermal Expansion
-
-```
-Mod ID  : thermal_expansion
-Mod File: thermal_expansion-1.19.2-10.2.0.21.jar
-```
-
-https://teamcofh.com/
-
-Expanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology!
-
-Contains the "factory" of the Thermal Series - Dynamos and Machines to both produce and process.
-
-# Thermal Foundation
-
-```
-Mod ID  : thermal_foundation
-Mod File: thermal_foundation-1.19.2-10.2.0.47.jar
-```
-
-https://teamcofh.com/
-
-The Foundation of a Thermally Expanding World!
-
-Contains the ores and world generation for the Thermal Series.
-
-# Thermal Innovation
-
-```
-Mod ID  : thermal_innovation
-Mod File: thermal_innovation-1.19.2-10.2.0.18.jar
-```
-
-https://teamcofh.com/
-
-Thermal Technology marches on. Adds Thermal-style tools and equipment!
-
-Contains player-centric power - useful tools, gadgets, and armor.
-
-# Thermal Integration
-
-```
-Mod ID  : thermal_integration
-Mod File: thermal_integration-1.19.2-10.2.0.17.jar
-```
-
-https://teamcofh.com/
-
-Integrating Thermal with the wider modded ecosystem!
-
-Contains Thermal machine recipes and compatibility for many different mods.
-
-# Thermal Locomotion
-
-```
-Mod ID  : thermal_locomotion
-Mod File: thermal_locomotion-1.19.2-10.2.0.14.jar
-```
-
-https://teamcofh.com/
-
-Thermal hits the tracks!
-
-Contains the "railyard" of the Thermal Series - Rails and Minecarts to expand rail-centric gameplay.
-
 # Trash Cans
 
 ```
@@ -1148,7 +1100,7 @@ https://www.curseforge.com/minecraft/mc-mods/trashslot
 
 Adds a trash slot to the inventory screen that allows deletion of unwanted items.
 
-# Utamacraft 🤩
+# Utamacraft
 
 ```
 Mod ID. : utamacraft
@@ -1191,6 +1143,10 @@ Teleport back to activated waystones. For Survival, Adventure or Servers.
 | Jade                             | `Jade-1.19.1-forge-8.8.1.jar`                      |
 | MOA DECOR: BATH                  | `MOAdecor+BATH+1.19.2.jar`                         |
 | MOA DECOR: SCIENCE               | `MOAdecor+SCIENCE+1.19.2.jar`                      |
+| MOA DECOR: LIGHTS                | `MOAdecor+LIGHTS+1.19.2.jar`                       |
+| MOA DECOR: GARDEN                | `MOAdecor+GARDEN+1.19.2.jar`                       |
+| MOA DECOR: ART                   | `MOAdecor+ART+1.19.2.jar`                          |
+| MOA DECOR: COOKERY               | `MOAdecor+COOKERY+1.19.2.jar`                      |
 | Mekanism                         | `Mekanism-1.19.2-10.3.8.477.jar`                   |
 | Mekanism: Generators             | `MekanismGenerators-1.19.2-10.3.8.477.jar`         |
 | Mekanism: Tools                  | `MekanismTools-1.19.2-10.3.8.477.jar`              |
@@ -1245,21 +1201,14 @@ Teleport back to activated waystones. For Survival, Adventure or Servers.
 | Polymorph                        | `polymorph-forge-0.46.1+1.19.2.jar`                |
 | Refined Storage                  | `refinedstorage-1.11.6.jar`                        |
 | Resourcefulconfig                | `resourcefulconfig-forge-1.19.2-1.0.20.jar`        |
-| Gauges and Switches              | `rsgauges-1.19.2-forge-1.2.19.jar`                 |
 | RSRequestify                     | `rsrequestify-2.3.0.jar`                           |
 | Rubidium                         | `rubidium-0.6.2b.jar`                              |
 | Structure Gel API                | `structure_gel-1.19.2-2.7.2.jar`                   |
 | SuperMartijn642's Config Library | `supermartijn642configlib-1.1.6b-forge-mc1.19.jar` |
 | SuperMartijn642's Core Lib       | `supermartijn642corelib-1.1.9a-forge-mc1.19.2.jar` |
-| Thermal Cultivation              | `thermal_cultivation-1.19.2-10.2.0.17.jar`         |
-| Thermal Expansion                | `thermal_expansion-1.19.2-10.2.0.21.jar`           |
-| Thermal Foundation               | `thermal_foundation-1.19.2-10.2.0.47.jar`          |
-| Thermal Innovation               | `thermal_innovation-1.19.2-10.2.0.18.jar`          |
-| Thermal Integration              | `thermal_integration-1.19.2-10.2.0.17.jar`         |
-| Thermal Locomotion               | `thermal_locomotion-1.19.2-10.2.0.14.jar`          |
 | Trash Cans                       | `trashcans-1.0.17a-forge-mc1.19.jar`               |
 | TrashSlot                        | `trashslot-forge-1.19-12.0.2.jar`                  |
-| Utamacraft                       | `utamacraft-0.0.1-1.19.jar`                        |
+| Utamacraft                       | `utamacraft-0.1.1-1.19.jar`                        |
 | Waystones                        | `waystones-forge-1.19.2-11.4.0.jar`                |
 
 # Minecraft Version
@@ -1284,6 +1233,10 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#Jade]]                       | ✓      | ✓      | ✓      | ✓      |
 | [[#MOA DECOR BATH]]             | ✓      | ✓      |        | ✓      |
 | [[#MOA DECOR SCIENCE]]          | ✓      | ✓      |        | ✓      |
+| [[#MOA DECOR LIGHTS]]           | ✓      | ✓      |        | ✓      |
+| [[#MOA DECOR GARDEN]]           | ✓      | ✓      |        | ✓      |
+| [[#MOA DECOR ART]]              | ✓      | ✓      |        | ✓      |
+| [[#MOA DECOR COOKERY]]          | ✓      | ✓      |        | ✓      |
 | [[#Mekanism]]                   | ✓      |        |        | ✓      |
 | [[#Mekanism Generators]]        | ✓      |        |        | ✓      |
 | [[#Mekanism Tools]]             | ✓      |        |        | ✓      |
@@ -1327,25 +1280,17 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#Oculus]]                     | ✓      | ✓      |        | ✓      |
 | [[#Polymorph]]                  | ✓      | ✓      | ✓      | ✓      |
 | [[#Refined Storage]]            | ✓      |        |        | ✓      |
-| [[#Gauges and Switches 🪦]][^5] |        |        |        | ✓      |
 | [[#RSRequestify]]               | ✓      |        |        | ✓      |
 | [[#Rubidium]]                   | ✓      | ✓      | ✓      | ✓      |
-| [[#Thermal Cultivation]][^3]    | 😓     |        |        | ✓      |
-| [[#Thermal Expansion]][^3]      | 😓     |        |        | ✓      |
-| [[#Thermal Foundation]][^3]     | 😓     |        |        | ✓      |
-| [[#Thermal Innovation]][^3]     | 😓     |        |        | ✓      |
-| [[#Thermal Integration]][^3]    | 😓     |        |        | ✓      |
-| [[#Thermal Locomotion]][^3]     | 😓     |        |        | ✓      |
 | [[#Trash Cans]]                 | ✓      | ✓      | ✓      | ✓      |
 | [[#TrashSlot]]                  | ✓      | ✓      | ✓      | ✓      |
-| [[#Utamacraft 🤩]]              |        |        |        | ✓      |
+| [[#Utamacraft]]                 |        |        |        | ✓      |
 | [[#Waystones]]                  | ✓      | ✓      | ✓      | ✓      |
 
 [^1]: Botania's [Changelog](https://botaniamod.net/changelog.html) shows that a 1.20.1 release is due to be cut soon. This will help us move the server over to Minecraft 1.20.1.
 [^2]: The update to Quark is still pending.
 [^3]: CoFH core and all Thermal update is still pending.
 [^4]: [[#Glassential]] has not seen any changes since [July 2022](https://github.com/Lykrast/Glassential) which does not fill me with confidence we're going to see a 1.20.1 release.
-[^5]: [[#Gauges and Switches 🪦]] is now dead.
 
 ## Library Minecraft Versions
 

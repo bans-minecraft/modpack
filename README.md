@@ -1,6 +1,6 @@
 # Mod Pack for Ban's Minecraft Server
 
-- Current Release: [2023-11-26](https://git.blakerain.com/bans-minecraft/modpack/releases/tag/2023-11-26)
+- Current Release: [2023-11-28](https://git.blakerain.com/bans-minecraft/modpack/releases/tag/2023-11-28)
 - Minecraft Version: 1.19.2
 - Forge Version: 43.3.5
 
@@ -10,12 +10,13 @@ The next release of the mod-pack is planned to have the following.
 
 **Migrate to Minecraft v1.20.1** We are currently waiting for the following mods to release their new versions.
 
-- [ ] Waiting for Botania to cut their 1.20.1 release
+- ~~Waiting for Botania to cut their 1.20.1 release~~
 - [ ] Seems that AutoRegLib is dead 😥
 - [ ] Waiting for Quark to cut their 1.20.1 release
 - [ ] Waiting for CoFH Core core to cut their 1.20.1 release
 - [x] Still trying to find out what is going on with Glassential. For now it seems that we'll replace this.
 - [ ] Gauges and Switches seems to be dead, as it has been archived by the developer. 🪦
+- [x] Remove the Thermal series.
 
 **New Mods** New mods that will be added in the next release:
 
@@ -27,9 +28,14 @@ The next release of the mod-pack is planned to have the following.
 
 # Previous Releases
 
-## 2023-11-27 (Current Version)
+## 2023-11-28 (Current Version)
 
-- Updated the [[#Utamacraft 🤩]] mod to v0.1.0.
+- Update the Utamacraft mod to v0.1.1 (a bug fix release).
+- Remove the Thermal mods.
+
+## 2023-11-27
+
+- Updated the Utamacraft mod to v0.1.0.
 - Bumped CC-Tweaked to 1.19.2-1.101.3
 
 ## 2023-11-26
@@ -84,6 +90,10 @@ The following table lists the mod files that are included in this pack.
 | Jade                             | `Jade-1.19.1-forge-8.8.1.jar`                      |
 | MOA DECOR: BATH                  | `MOAdecor+BATH+1.19.2.jar`                         |
 | MOA DECOR: SCIENCE               | `MOAdecor+SCIENCE+1.19.2.jar`                      |
+| MOA DECOR: LIGHTS                | `MOAdecor+LIGHTS+1.19.2.jar`                       |
+| MOA DECOR: GARDEN                | `MOAdecor+GARDEN+1.19.2.jar`                       |
+| MOA DECOR: ART                   | `MOAdecor+ART+1.19.2.jar`                          |
+| MOA DECOR: COOKERY               | `MOAdecor+COOKERY+1.19.2.jar`                      |
 | Mekanism                         | `Mekanism-1.19.2-10.3.8.477.jar`                   |
 | Mekanism: Generators             | `MekanismGenerators-1.19.2-10.3.8.477.jar`         |
 | Mekanism: Tools                  | `MekanismTools-1.19.2-10.3.8.477.jar`              |
@@ -138,20 +148,14 @@ The following table lists the mod files that are included in this pack.
 | Polymorph                        | `polymorph-forge-0.46.1+1.19.2.jar`                |
 | Refined Storage                  | `refinedstorage-1.11.6.jar`                        |
 | Resourcefulconfig                | `resourcefulconfig-forge-1.19.2-1.0.20.jar`        |
-| Gauges and Switches              | `rsgauges-1.19.2-forge-1.2.19.jar`                 |
 | RSRequestify                     | `rsrequestify-2.3.0.jar`                           |
 | Rubidium                         | `rubidium-0.6.2b.jar`                              |
 | Structure Gel API                | `structure_gel-1.19.2-2.7.2.jar`                   |
 | SuperMartijn642's Config Library | `supermartijn642configlib-1.1.6b-forge-mc1.19.jar` |
 | SuperMartijn642's Core Lib       | `supermartijn642corelib-1.1.9a-forge-mc1.19.2.jar` |
-| Thermal Cultivation              | `thermal_cultivation-1.19.2-10.2.0.17.jar`         |
-| Thermal Expansion                | `thermal_expansion-1.19.2-10.2.0.21.jar`           |
-| Thermal Foundation               | `thermal_foundation-1.19.2-10.2.0.47.jar`          |
-| Thermal Innovation               | `thermal_innovation-1.19.2-10.2.0.18.jar`          |
-| Thermal Integration              | `thermal_integration-1.19.2-10.2.0.17.jar`         |
-| Thermal Locomotion               | `thermal_locomotion-1.19.2-10.2.0.14.jar`          |
 | Trash Cans                       | `trashcans-1.0.17a-forge-mc1.19.jar`               |
 | TrashSlot                        | `trashslot-forge-1.19-12.0.2.jar`                  |
+| Utamacraft                       | `utamacraft-0.1.1-1.19.jar`                        |
 | Waystones                        | `waystones-forge-1.19.2-11.4.0.jar`                |
 
 # Minecraft Version
@@ -231,14 +235,13 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#Thermal Locomotion]][^3]     | 😓     |        |        | ✓      |
 | [[#Trash Cans]]                 | ✓      | ✓      | ✓      | ✓      |
 | [[#TrashSlot]]                  | ✓      | ✓      | ✓      | ✓      |
-| [[#Utamacraft 🤩]]              |        |        |        |        |
+| [[#Utamacraft]]                 |        |        |        |        |
 | [[#Waystones]]                  | ✓      | ✓      | ✓      | ✓      |
 
 [^1]: Botania's [Changelog](https://botaniamod.net/changelog.html) shows that a 1.20.1 release is due to be cut soon. This will help us move the server over to Minecraft 1.20.1.
 [^2]: The update to Quark is still pending.
 [^3]: CoFH core and all Thermal update is still pending.
 [^4]: [[#Glassential]] has not seen any changes since [July 2022](https://github.com/Lykrast/Glassential) which does not fill me with confidence we're going to see a 1.20.1 release.
-[^5]: [[#Gauges and Switches 🪦]] is now dead.
 
 ## Library Minecraft Versions
 
