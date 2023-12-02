@@ -1,34 +1,83 @@
 # Mod Pack for Ban's Minecraft Server
 
-- Current Release: [2023-11-28](https://git.blakerain.com/bans-minecraft/modpack/releases/tag/2023-11-28)
+- Current Release: [2023-12-02](https://git.blakerain.com/bans-minecraft/modpack/releases/tag/2023-12-02)
 - Minecraft Version: 1.19.2
 - Forge Version: 43.3.5
 
-# Next Release
+# Planned Changes
 
 The next release of the mod-pack is planned to have the following.
 
 **Migrate to Minecraft v1.20.1** We are currently waiting for the following mods to release their new versions.
 
 - ~~Waiting for Botania to cut their 1.20.1 release~~
+- [ ] Remove Botania
 - [ ] Seems that AutoRegLib is dead 😥
 - [ ] Waiting for Quark to cut their 1.20.1 release
-- [ ] Waiting for CoFH Core core to cut their 1.20.1 release
-- [x] Still trying to find out what is going on with Glassential. For now it seems that we'll replace this.
-- [ ] Gauges and Switches seems to be dead, as it has been archived by the developer. 🪦
-- [x] Remove the Thermal series.
-
-**New Mods** New mods that will be added in the next release:
-
-- [x] Add [our own mod](https://git.blakerain.com/bans-minecraft/utamacraft) 🤩 that will contain our custom functionality. This will initially include the [ethereal glass](https://git.blakerain.com/bans-minecraft/utamacraft/issues/1) clone.
-- [ ] Add [MOA DECOR: LIGHTS](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-lights)
-- [ ] Add [MOA DECOR: GARDEN](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-garden)
-- [ ] Add [MOA DECOR: ART](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-art)
-- [ ] Add [MOA DECOR: COOKERY](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-cookery)
 
 # Previous Releases
 
-## 2023-11-28 (Current Version)
+## 2023-12-02 (Current Version)
+
+This version saw the addition of a pending mod:
+
+- Added Mekanism Additions
+
+A number of mods have seen an update to the latest version (on Minecraft 1.19.2):
+
+- Updated Utamacraft to [v0.2.0](https://git.blakerain.com/bans-minecraft/utamacraft/releases/tag/v0.2.0-1.19.2), which saw the addition of the _Insolator_ and the _Fire Ward Necklace_.
+- Updated Advanced Peripherals to 0.7.32r
+- Updated Apotheosis to 6.4.1
+- Updated BetterF3 to 4.0.1
+- Updated BotanyPots to 9.0.38
+- Updated BotanyTrees to 5.0.12
+- Updated Gateways To Eternity to 3.2.2
+- Updated Jade to 8.9.1
+- Updated Mekanism, Mekanism Generators, and Mekanism Tools to 10.3.9.13
+- Updated Xaero's Minimap to 23.9.1
+- Updated Ars Elemental to 0.5.9.3.2
+- Updated Ars Nouveau to 3.21.4
+- Updated Artifacts to 5.0.4
+- Updated Canary to 0.2.8
+- Updated Carry On (reach-around) to 2.1.1.22
+- Updated CC Tweaked to 1.101.3
+- Updated Chunk Loaders to 1.2.8a
+- Updated Comforts to 6.0.6
+- Updated Create to 0.5.1.f
+- Updated Create Crafts & Additions to 1.2.0
+- Updated Guard Villagers to 1.5.8
+- Updated Just Enough Items to 11.6.0.1018
+- Updated Little Logistics to 1.4.0
+- Updated Macaw's Bridges to 2.1.1
+- Updated Macaw's Doors to 1.1.0
+- Updated Macaw's Furniture to 3.2.1
+- Updated Macaw's Lights and Lamps to 1.0.6
+- Updated Macaw's Paintings to 1.0.5
+- Updated Macaw's Roofs to 2.2.4
+- Updated Macaw's Trapdoors to 1.1.2
+- Updated Macaw's Windows to 2.2.0
+- Updated Naturalist to 4.0.3
+- Updated Oculus to 1.6.9
+- Updated Polymorph to 0.46.5
+- Updated Refined Storage to 1.11.7
+- Updated RSRequestify to 2.3.1
+- Updated Rubidium to 0.6.2c
+- Updated Curios to 5.1.4.3
+- Updated Trash Cans to 1.0.18
+- Updated TrashSlot to 12.1.0
+- Updated Waystones to 11.4.1
+
+The following library mods have also been updated:
+
+- Updated Placebo to 7.3.4
+- Updated TerraBlender to 2.0.1.166
+- Updated Balm to 4.6.0
+- Updated Cloth Config v8 API to 8.3.103
+- Updated Structure Gel API to 2.7.3
+- Updated SuperMartijn642's Core Lib to 1.1.15
+- Updated SuperMartijn642's Config Library to 1.1.8
+
+## 2023-11-28
 
 - Update the Utamacraft mod to v0.1.1 (a bug fix release).
 - Remove the Thermal mods.

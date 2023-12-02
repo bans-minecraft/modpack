@@ -1,35 +1,81 @@
-Current Release: 2023-11-28
+Current Release: 2023-12-02
 Minecraft Version: 1.19.2 (see the [[#Minecraft Version]] for more information)
 Forge Version: 43.3.5
 
-# Next Release
+# Planned Changes
 
-The next release of the mod-pack is planned to have the following.
+Over the next few releases of the mod-pack we plan to make the changes described in this section.
 
 **Migrate to Minecraft v1.20.1** We are currently waiting for the following mods to release their new versions.
 
-- ~~Waiting for [[#Botania 😓]] to cut their 1.20.1[^1] release~~
+- ~~Waiting for [[#Botania 😓]] to cut their 1.20.1[^1] release~~ (we're going to remove Botania)
 - [ ] Seems that [[#AutoRegLib 🪦]] is dead 😥
 - [ ] Waiting for [[#Quark 😓]] to cut their 1.20.1[^2] release
-- [ ] Waiting for [[#CoFH Core 😓]] core to cut their 1.20.1[^3] release
-- [x] Still trying to find out what is going on with [[#Glassential]][^4]. For now it seems that we'll replace this.
-- [x] [[#Gauges and Switches 🪦]] looks like it's dead, as it has been archived.
-- [x] Removal of [[#Thermal Expansion]] and so on
 - [ ] Removal of [[#Botania 😓]]
-
-**New Mods** New mods that will be added in the next release:
-
-- [x] Add [our own mod](https://git.blakerain.com/bans-minecraft/utamacraft) 🤩 that will contain our custom functionality. This will initially include the [ethereal glass](https://git.blakerain.com/bans-minecraft/utamacraft/issues/1) clone.
-- [x] Add [MOA DECOR: LIGHTS](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-lights)
-- [x] Add [MOA DECOR: GARDEN](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-garden)
-- [x] Add [MOA DECOR: ART](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-art)
-- [x] Add [MOA DECOR: COOKERY](https://legacy.curseforge.com/minecraft/mc-mods/moa-decor-cookery)
-- [ ] Add [Mekanism Additions](https://www.curseforge.com/minecraft/mc-mods/mekanism-additions)
-- [ ] Add [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools)
 
 # Previous Releases
 
-## 2023-11-28 (Current Version)
+## 2023-12-02 (Current Version)
+
+This version saw the addition of a pending mod:
+
+- Added [[#Mekanism Additions]]
+
+A number of mods have seen an update to the latest version (on Minecraft 1.19.2):
+
+- Updated [[#Utamacraft]] to [v0.2.0](https://git.blakerain.com/bans-minecraft/utamacraft/releases/tag/v0.2.0-1.19.2), which saw the addition of the _Insolator_ and the _Fire Ward Necklace_.
+- Updated [[#Advanced Peripherals]] to 0.7.32r
+- Updated [[#Apotheosis]] to 6.4.1
+- Updated [[#BetterF3]] to 4.0.1
+- Updated [[#BotanyPots]] to 9.0.38
+- Updated [[#BotanyTrees]] to 5.0.12
+- Updated [[#Gateways To Eternity]] to 3.2.2
+- Updated [[#Jade]] to 8.9.1
+- Updated [[#Mekanism]], [[#Mekanism Generators]], and [[#Mekanism Tools]] to 10.3.9.13
+- Updated [[#Xaero's Minimap]] to 23.9.1
+- Updated [[#Ars Elemental]] to 0.5.9.3.2
+- Updated [[#Ars Nouveau]] to 3.21.4
+- Updated [[#Artifacts]] to 5.0.4
+- Updated [[#Canary]] to 0.2.8
+- Updated [[#Carry On]] (reach-around) to 2.1.1.22
+- Updated [[#CC Tweaked]] to 1.101.3
+- Updated [[#Chunk Loaders]] to 1.2.8a
+- Updated [[#Comforts]] to 6.0.6
+- Updated [[#Create]] to 0.5.1.f
+- Updated [[#Create Crafts & Additions]] to 1.2.0
+- Updated [[#Guard Villagers]] to 1.5.8
+- Updated [[#Just Enough Items]] to 11.6.0.1018
+- Updated [[#Little Logistics]] to 1.4.0
+- Updated [[#Macaw's Bridges]] to 2.1.1
+- Updated [[#Macaw's Doors]] to 1.1.0
+- Updated [[#Macaw's Furniture]] to 3.2.1
+- Updated [[#Macaw's Lights and Lamps]] to 1.0.6
+- Updated [[#Macaw's Paintings]] to 1.0.5
+- Updated [[#Macaw's Roofs]] to 2.2.4
+- Updated [[#Macaw's Trapdoors]] to 1.1.2
+- Updated [[#Macaw's Windows]] to 2.2.0
+- Updated [[#Naturalist]] to 4.0.3
+- Updated [[#Oculus]] to 1.6.9
+- Updated [[#Polymorph]] to 0.46.5
+- Updated [[#Refined Storage]] to 1.11.7
+- Updated [[#RSRequestify]] to 2.3.1
+- Updated [[#Rubidium]] to 0.6.2c
+- Updated [[#Curios]] to 5.1.4.3
+- Updated [[#Trash Cans]] to 1.0.18
+- Updated [[#TrashSlot]] to 12.1.0
+- Updated [[#Waystones]] to 11.4.1
+
+The following library mods have also been updated:
+
+- Updated [[#Placebo]] to 7.3.4
+- Updated [[#TerraBlender]] to 2.0.1.166
+- Updated [[#Balm]] to 4.6.0
+- Updated [[#Cloth Config v8 API]] to 8.3.103
+- Updated [[#Structure Gel API]] to 2.7.3
+- Updated [[#SuperMartijn642's Core Lib]] to 1.1.15
+- Updated [[#SuperMartijn642's Config Library]] to 1.1.8
+
+## 2023-11-28
 
 - Update the Utamacraft mod to v0.1.1 (a bug fix release).
 - Remove the Thermal mods.
@@ -72,7 +118,6 @@ Upgraded the following mods:
 ---
 
 > [!NOTE]- Currently Available Mods
->
 > - [[Ban's Modded Server#Advanced Peripherals|Advanced Peripherals]]
 > - [[Ban's Modded Server#Apotheosis|Apotheosis]]
 > - [[Ban's Modded Server#Aquaculture 2|Aquaculture 2]]
@@ -161,18 +206,17 @@ Upgraded the following mods:
 
 ```
 Mod ID  : advancedperipherals
-Mod File: AdvancedPeripherals-1.19.2-0.7.28r.jar
+Mod File: AdvancedPeripherals-1.19.2-0.7.32r.jar
 ```
 
 https://docs.srendi.de/
 https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
-
 # Apotheosis
 
 ```
 Mod ID  : apotheosis
-Mod File: Apotheosis-1.19.2-6.2.1.jar
-Version : 6.2.1
+Mod File: Apotheosis-1.19.2-6.4.1.jar
+Version : 6.4.1
 ```
 
 All things that should have been.
@@ -185,7 +229,7 @@ Mod ID  : aquaculture
 Mod File: Aquaculture-1.19.2-2.4.8.jar
 ```
 
-https://minecraft.curseforge.com/projects/aquaculture
+https://www.curseforge.com/minecraft/mc-mods/aquaculture
 
     Welcome to Aquaculture! An expansion of Minecraft's fishing system.
 
@@ -203,8 +247,8 @@ Automatically item, block, and model registration for mods.
 
 ```
 Mod ID  : betterf3
-Mod File: BetterF3-4.0.0-Forge-1.19.2.jar
-Version : 4.0.0
+Mod File: BetterF3-4.0.1-Forge-1.19.2.jar
+Version : 4.0.1
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/betterf3
@@ -214,7 +258,6 @@ Better F3 for Minecraft Forge
 Replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.
 
 The creator would like to thank:
-
 - cominixo for creating the Fabric version of the mod
 - Nirewen for creating the icon
 
@@ -248,25 +291,27 @@ Botania[^1] is a mod that adds nature magic to Minecraft.
 
 ```
 Mod ID  : botanypots
-Mod File: BotanyPots-Forge-1.19.2-9.0.33.jar
-Version : 9.0.33
+Mod File: BotanyPots-Forge-1.19.2-9.0.38.jar
+Version : 9.0.38
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/botany-pots
 
 Pots for growing different types of plants.
 
+
 # BotanyTrees
 
 ```
 Mod ID  : botanytrees
-Mod File: BotanyTrees-Forge-1.19.2-5.0.8.jar
-Version : 5.0.8
+Mod File: BotanyTrees-Forge-1.19.2-5.0.12.jar
+Version : 5.0.12
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/botany-trees
 
 Allows Botany Pots to grow trees.
+
 
 # Clumps
 
@@ -279,26 +324,28 @@ https://www.curseforge.com/minecraft/mc-mods/clumps
 
 Clumps xp orbs together.
 
+
 # Gateways To Eternity
 
 ```
 Mod ID  : gateways
-Mod File: GatewaysToEternity-1.19.2-3.2.0.jar
-Version : 3.2.0
+Mod File: GatewaysToEternity-1.19.2-3.2.2.jar
+Version : 3.2.2
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/gateways-to-eternity
 
-Invoke that from the dark beyond. Let it pour into this world. A mod about creating temporary mob spawners in the form of portals.
+Invoke that from the dark beyond.  Let it pour into this world.  A mod about creating temporary mob spawners in the form of portals.
 
 # Jade
 
 ```
 Mod ID  : jade
-Mod File: Jade-1.19.1-forge-8.8.1.jar
+Mod File: Jade-1.19.1-forge-8.9.1.jar
+Version : 8.9.1
 ```
 
-https://minecraft.curseforge.com/projects/jade
+https://www.curseforge.com/minecraft/mc-mods/jade
 
 Minecraft mod shows what you are looking at. (Hwyla fork)
 
@@ -321,6 +368,7 @@ Mod File: MOAdecor+SCIENCE+1.19.2.jar
 Version : 1.19.2
 ```
 
+https://www.curseforge.com/minecraft/mc-mods/moa-decor-science
 https://mcreator.net
 
 # MOA DECOR: LIGHTS
@@ -331,6 +379,8 @@ Mod File: MOADecor+LIGHTS+1.19.2.jar
 Version : 1.19.2
 ```
 
+https://www.curseforge.com/minecraft/mc-mods/moa-decor-lights
+
 # MOA DECOR: ART
 
 ```
@@ -338,6 +388,8 @@ Mod ID  : moa_decor_art
 Mod File: MOADecor+ART+1.19.2.jar
 Version : 1.19.2
 ```
+
+https://www.curseforge.com/minecraft/mc-mods/moa-decor-art
 
 # MOA DECOR: COOKERY
 
@@ -347,6 +399,8 @@ Mod File: MOADecor+COOKERY+1.19.2.jar
 Version : 1.19.2
 ```
 
+https://www.curseforge.com/minecraft/mc-mods/moa-decor-cookery
+
 # MOA DECOR: GARDEN
 
 ```
@@ -355,12 +409,14 @@ Mod File: MOADecor+GARDEN+1.19.2.jar
 Version : 1.19.2
 ```
 
+https://www.curseforge.com/minecraft/mc-mods/moa-decor-garden
+
 # Mekanism
 
 ```
 Mod ID  : mekanism
-Mod File: Mekanism-1.19.2-10.3.8.477.jar
-Version : 10.3.8
+Mod File: Mekanism-1.19.2-10.3.9.13.jar
+Version : 10.3.9.13
 ```
 
 https://aidancbrady.com/mekanism/
@@ -368,12 +424,24 @@ https://www.curseforge.com/minecraft/mc-mods/mekanism
 
 Mekanism is a Minecraft add-on featuring high-tech machinery that can be used to create powerful tools, armor, and weapons.
 
+# Mekanism: Additions
+
+```
+Mod ID  : mekanismadditions
+Mod File: MekanismAdditions-1.19.2-10.3.9.13.jar
+Version : 10.3.9.13
+```
+
+https://aidancbrady.com/mekanism/
+https://www.curseforge.com/minecraft/mc-mods/mekanism-additions
+
+
 # Mekanism: Generators
 
 ```
 Mod ID  : mekanismgenerators
 Mod File: MekanismGenerators-1.19.2-10.3.8.477.jar
-Version : 10.3.8
+Version : 10.3.9.13
 ```
 
 https://aidancbrady.com/mekanism/
@@ -385,8 +453,8 @@ Generators module for Mekanism
 
 ```
 Mod ID  : mekanismtools
-Mod File: MekanismTools-1.19.2-10.3.8.477.jar
-Version : 10.3.8
+Mod File: MekanismTools-1.19.2-10.3.9.13.jar
+Version : 10.3.9.13
 ```
 
 https://aidancbrady.com/mekanism/
@@ -404,6 +472,7 @@ Mod File: MouseTweaks-forge-mc1.19-2.23.jar
 https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks
 
 A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.
+
 
 # OpenStairs
 
@@ -431,8 +500,8 @@ Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and
 
 ```
 Mod ID  : placebo
-Mod File: Placebo-1.19.2-7.2.0.jar
-Version : 7.2.0
+Mod File: Placebo-1.19.2-7.3.4.jar
+Version : 7.3.4
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/placebo
@@ -479,11 +548,12 @@ https://www.curseforge.com/minecraft/mc-mods/storage-drawers
 
     Multi-drawer storage blocks for quick storage and retrieval.
 
+
 # TerraBlender
 
 ```
 Mod ID  : terrablender
-Mod File: TerraBlender-forge-1.19.2-2.0.1.136.jar
+Mod File: TerraBlender-forge-1.19.2-2.0.1.166.jar
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/terrablender
@@ -499,21 +569,12 @@ Mod File: ToolBelt-1.19.2-1.19.7.jar
 
 https://www.curseforge.com/minecraft/mc-mods/tool-belt
 
-# Turtlematic
-
-```
-Mod ID  : turtlematic
-Mod File:
-```
-
-https://www.curseforge.com/minecraft/mc-mods/turtlematic
-
 # Xaero's Minimap
 
 ```
 Mod ID  : xaerominimap
-Mod File: Xaeros_Minimap_23.5.0_Forge_1.19.1.jar
-Version : 23.5.0
+Mod File: Xaeros_Minimap_23.9.1_Forge_1.19.1.jar
+Version : 23.9.1
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap
@@ -524,7 +585,7 @@ The most vanilla-looking minimap for Minecraft.
 
 ```
 Mod ID  : ars_elemental
-Mod File: ars_elemental-1.19.2-0.5.9.1.0.jar
+Mod File: ars_elemental-1.19.2-0.5.9.3.2.jar
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/ars-elemental-elemental-spell-foci
@@ -533,7 +594,7 @@ https://www.curseforge.com/minecraft/mc-mods/ars-elemental-elemental-spell-foci
 
 ```
 Mod ID  : ars_nouveau
-Mod File: ars_nouveau-1.19.2-3.15.1.jar
+Mod File: ars_nouveau-1.19.2-3.21.4.jar
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
@@ -542,7 +603,7 @@ https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
 
 ```
 Mod ID  : artifacts
-Mod File: artifacts-1.19.2-5.0.2.jar
+Mod File: artifacts-1.19.2-5.0.4.jar
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/artifacts
@@ -553,7 +614,7 @@ Adds various new powerful uncraftable items to make exploration a bit more inter
 
 ```
 Mod ID  : balm
-Mod File: balm-forge-1.19.2-4.5.7.jar
+Mod File: balm-forge-1.19.2-4.6.0.jar
 ```
 
 https://blay09.net/
@@ -584,11 +645,12 @@ https://www.curseforge.com/minecraft/mc-mods/caelus
 
 A coremod and API to provide developers access to elytra flight mechanics through an entity attribute.
 
+
 # Canary
 
 ```
 Mod ID  : canary
-Mod File: canary-mc1.19.2-0.2.7.jar
+Mod File: canary-mc1.19.2-0.2.8.jar
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/canary
@@ -597,7 +659,7 @@ https://www.curseforge.com/minecraft/mc-mods/canary
 
 ```
 Mod ID  : carryon
-Mod File: carryon-forge-1.19.2-2.0.5.16.jar
+Mod File: carryon-forge-1.19.2-2.1.1.22.jar
 ```
 
 https://tschipp.ch
@@ -609,7 +671,7 @@ Carry On is a simple mod that improves game interaction by allowing players to p
 
 ```
 Mod ID  : computercraft
-Mod File: cc-tweaked-1.19.2-1.101.2.jar
+Mod File: cc-tweaked-1.19.2-1.101.3.jar
 Version : 1.101.2
 ```
 
@@ -617,6 +679,7 @@ https://tweaked.cc
 https://www.curseforge.com/minecraft/mc-mods/cc-tweaked
 
 CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft.
+
 
 # MrCrayfish's Furniture Mod
 
@@ -635,8 +698,8 @@ MrCrayfish's Furniture Mod is all about adding functioning furniture and decorat
 
 ```
 Mod ID  : chunkloaders
-Mod File: chunkloaders-1.2.3-forge-mc1.19.jar
-Version : 1.2.3
+Mod File: chunkloaders-1.2.8a-forge-mc1.19.jar
+Version : 1.2.8a
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/chunk-loaders
@@ -647,8 +710,8 @@ Chunk Loaders allows you to keep chunks loaded with different tiers of chunk loa
 
 ```
 Mod ID  : cloth_config
-Mod File: cloth-config-8.2.88-forge.jar
-Version : 8.2.88
+Mod File: cloth-config-8.3.103-forge.jar
+Version : 8.3.103
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/cloth-config
@@ -683,6 +746,7 @@ https://www.curseforge.com/minecraft/mc-mods/comforts
 Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns.
 Comes in 16 different colors!
 
+
 # Crafting On A Stick
 
 ```
@@ -695,21 +759,22 @@ https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick
 
 This mod adds multiple workbenches on a stick:
 
-- Crafting Table
-- Anvil
-- Loom
-- Grindstone
-- Grindstone
-- Cartography Table
-- Cartography Table
-- Stonecutter
-- Smithing Table
+ - Crafting Table
+ - Anvil
+ - Loom
+ - Grindstone
+ - Grindstone
+ - Cartography Table
+ - Cartography Table
+ - Stonecutter
+ - Smithing Table
+
 
 # Create
 
 ```
 Mod ID  : create
-Mod File: create-1.19.2-0.5.1.b.jar
+Mod File: create-1.19.2-0.5.1.f.jar
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/create
@@ -718,7 +783,7 @@ https://www.curseforge.com/minecraft/mc-mods/create
 
 ```
 Mod ID  : createaddition
-Mod File: createaddition-1.19.2-20230527a.jar
+Mod File: createaddition-1.19.2-1.2.0.jar
 ```
 
 https://github.com/mrh0/createaddition
@@ -736,11 +801,11 @@ https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul
 
 Creeper overhaul adds a variety of different biome-specific creeper types to your world, some friendlier than others :)
 
-# Curios API
+# Curios
 
 ```
 Mod ID  : curios
-Mod File: curios-forge-1.19.2-5.1.4.1.jar
+Mod File: curios-forge-1.19.2-5.1.4.3.jar
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/curios
@@ -757,6 +822,7 @@ https://www.curseforge.com/minecraft/mc-mods/elytra-slot
 
 Adds an accessory slot for the elytra so you can fly and wear chest armor at the same time.
 
+
 # GeckoLib
 
 ```
@@ -767,11 +833,12 @@ Mod File: geckolib-forge-1.19-3.1.40.jar
 http://geckolib.com/
 https://www.curseforge.com/minecraft/mc-mods/geckolib
 
+
 # Guard Villagers
 
 ```
 Mod ID  : guardvillagers
-Mod File: guardvillagers-1.19.2-1.5.6.jar
+Mod File: guardvillagers-1.19.2-1.5.8.jar
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/guard-villagers
@@ -780,13 +847,14 @@ https://www.curseforge.com/minecraft/mc-mods/guard-villagers
 
 ```
 Mod ID  : jei
-Mod File: jei-1.19.2-forge-11.6.0.1015.jar
-Version : 11.6.0.1015
+Mod File: jei-1.19.2-forge-11.6.0.1018.jar
+Version : 11.6.0.1018
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/jei
 
 JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.
+
 
 # Jumpy Boats
 
@@ -801,12 +869,13 @@ Makes it possible to jump a little while in a boat to transition from water to g
 
 See if you can find a boat.
 
+
 # Little Logistics
 
 ```
 Mod ID  : littlelogistics
-Mod File: littlelogistics-mc1.19.2-v1.3.2.jar
-Version : 1.3.2
+Mod File: littlelogistics-mc1.19.2-v1.4.0.jar
+Version : 1.4.0
 ```
 
 https://littlelogistics.murad.dev
@@ -824,8 +893,8 @@ For artwork: https://twitter.com/danfront2
 
 ```
 Mod ID  : mcwbridges
-Mod File: mcw-bridges-2.0.7-mc1.19.2forge.jar
-Version : 2.0.7
+Mod File: mcw-bridges-2.1.1-mc1.19.2forge.jar
+Version : 2.1.1
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/macaws-bridges
@@ -836,8 +905,8 @@ Connect the world with bridges!
 
 ```
 Mod ID  : mcwdoors
-Mod File: mcw-doors-1.0.9forge-mc1.19.2.jar
-Version : 1.0.9
+Mod File: mcw-doors-1.1.0forge-mc1.19.2.jar
+Version : 1.1.0
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/macaws-doors
@@ -860,8 +929,8 @@ Adds new vanila styled fences, walls and gates.
 
 ```
 Mod ID  : mcwfurnitures
-Mod File: mcw-furniture-3.1.0-mc1.19.2forge.jar
-Version : 3.1.0
+Mod File: mcw-furniture-3.2.1-mc1.19.2forge.jar
+Version : 3.2.1
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/macaws-furniture
@@ -872,8 +941,8 @@ Chairs, Wardrobes, Drawers, Tables, Desks and more..!
 
 ```
 Mod ID  : mcwlights
-Mod File: mcw-lights-1.0.5-mc1.19.2forge.jar
-Version : 1.0.5
+Mod File: mcw-lights-1.0.6-mc1.19.2forge.jar
+Version : 1.0.6
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps
@@ -884,8 +953,8 @@ Make your worlds brighter with lamps, tiki torches, paper lamps and more!
 
 ```
 Mod ID  : mcwpaintings
-Mod File: mcw-paintings-1.0.4-mc1.19.2.jar
-Version : 1.0.4
+Mod File: mcw-paintings-1.0.5-mc1.19.2.jar
+Version : 1.0.5
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/macaws-paintings
@@ -908,8 +977,8 @@ Adds new vanila styled paths and pavings!
 
 ```
 Mod ID  : mcwroofs
-Mod File: mcw-roofs-2.2.3-mc1.19.2forge.jar
-Version : 2.2.3
+Mod File: mcw-roofs-2.2.4-mc1.19.2forge.jar
+Version : 2.2.4
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/macaws-roofs
@@ -920,8 +989,8 @@ Build roofs, awnings, rain gutters and more!
 
 ```
 Mod ID  : mcwtrpdoors
-Mod File: mcw-trapdoors-1.1.0-mc1.19.2forge.jar
-Version : 1.1.0
+Mod File: mcw-trapdoors-1.1.2-mc1.19.2forge.jar
+Version : 1.1.2
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors
@@ -932,8 +1001,8 @@ Adds lots of different Trapdoors! With vanila and unique styles.
 
 ```
 Mod ID  : mcwwindows
-Mod File: mcw-windows-2.1.1-mc1.19.2forge.jar
-Version : 2.1.1
+Mod File: mcw-windows-2.2.0-mc1.19.2forge.jar
+Version : 2.2.0
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/macaws-windows
@@ -944,50 +1013,54 @@ Build Windows, Sills, Blinds, Shutters, Mosaic Windows and more!
 
 ```
 Mod ID  : naturalist
-Mod File: naturalist-forge-3.0.3a-1.19.2.jar
-Version : 3.0.3a
+Mod File: naturalist-forge-4.0.3-1.19.2.jar
+Version : 4.0.3
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/naturalist
 
 Enhances the overworld by adding new wildlife with unique behavior!
 
+
 # Oculus
 
 ```
 Mod ID  : oculus
-Mod File: oculus-mc1.19.2-1.6.4.jar
-Version : 1.6.4
+Mod File: oculus-mc1.19.2-1.6.9.jar
+Version : 1.6.9
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/oculus
 
 Unofficial Fork of "Iris", made to work with FML
 
+
 # Polymorph
 
 ```
 Mod ID  : polymorph
-Mod File: polymorph-forge-0.46.1+1.19.2.jar
-Version : 0.46.1+1.19.2
+Mod File: polymorph-forge-0.46.5+1.19.2.jar
+Version : 0.46.5+1.19.2
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/polymorph
 
 No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.
 
+
 # Refined Storage
 
 ```
 Mod ID  : refinedstorage
-Mod File: refinedstorage-1.11.6.jar
-Version : 1.11.6
+Mod File: refinedstorage-1.11.7.jar
+Version : 1.11.7
 ```
 
 https://refinedmods.com/refined-storage
 https://www.curseforge.com/minecraft/mc-mods/refined-storage
 
 An elegant solution to your hoarding problem
+
 
 # Resourcefulconfig
 
@@ -1001,27 +1074,11 @@ https://www.curseforge.com/minecraft/mc-mods/resourceful-config
 
 A library for creating config files for your mod across multiple platforms.
 
-# Gauges and Switches 🪦
-
-```
-Mod ID  : rsgauges
-Mod File: rsgauges-1.19.2-forge-1.2.19.jar
-```
-
-https://github.com/stfwi/rsgauges/
-https://www.curseforge.com/minecraft/mc-mods/redstone-gauges-and-switches
-
-Adds redstone metering gauges, levers, buttons, pressure plates, and all sorts of other sensors and detector switches to the game.
-
-**2023-11-25** This repository has now been _archived_ (as of 2023-07-24) so we can assume there are no more updates. To quote from the repository:
-
-> _**Note for players and packers**_: I am retiring, so only major bugs (like crashes) may be fixed for only the currently implemented mod versions; No feature/porting requests will be worked on. (_The time for this hobby has unfortunately become too short, but it was a major fun factor. Cheer's Ladies & Guys, WilE_).
-
 # RSRequestify
 
 ```
 Mod ID  : rsrequestify
-Mod File: rsrequestify-2.3.0.jar
+Mod File: rsrequestify-1.19.2-2.3.1.jar
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/rs-requestify
@@ -1032,19 +1089,20 @@ RS: Requestify is an add-on to [[#Refined Storage]] that currently adds one bloc
 
 ```
 Mod ID  : rubidium
-Mod File: rubidium-0.6.2b.jar
-Version : 0.6.2b
+Mod File: rubidium-0.6.2c.jar
+Version : 0.6.2c
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/rubidium
 
 Rubidium is a Unofficial Fork of the Sodium maked to work on FML.
 
+
 # Structure Gel API
 
 ```
 Mod ID  : structure_gel
-Mod File: structure_gel-1.19.2-2.7.2.jar
+Mod File: structure_gel-1.19.2-2.7.3.jar
 ```
 
 https://moddinglegacy.com/
@@ -1056,8 +1114,8 @@ An API mod to improve the developer side of structure gen
 
 ```
 Mod ID  : supermartijn642configlib
-Mod File: supermartijn642configlib-1.1.6b-forge-mc1.19.jar
-Version : 1.1.6b
+Mod File: supermartijn642configlib-1.1.8-forge-mc1.19.jar
+Version : 1.1.8
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib
@@ -1068,8 +1126,8 @@ Config Lib makes dealing with config files just a bit easier.
 
 ```
 Mod ID  : supermartijn642corelib
-Mod File: supermartijn642corelib-1.1.9a-forge-mc1.19.2.jar
-Version : 1.1.9a
+Mod File: supermartijn642corelib-1.1.15-forge-mc1.19.2.jar
+Version : 1.1.15
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib
@@ -1080,8 +1138,8 @@ SuperMartijn642's Core Lib adds lots of basic implementations for guis that allo
 
 ```
 Mod ID  : trashcans
-Mod File: trashcans-1.0.17a-forge-mc1.19.jar
-Version : 1.0.17a
+Mod File: trashcans-1.0.18-forge-mc1.19.jar
+Version : 1.0.18
 ```
 
 https://www.curseforge.com/minecraft/mc-mods/trash-cans
@@ -1092,7 +1150,7 @@ Trash Cans adds Trash Cans which can be used to void items, liquids and energy!
 
 ```
 Mod ID  : trashslot
-Mod File: trashslot-forge-1.19-12.0.2.jar
+Mod File: trashslot-forge-1.19-12.1.0.jar
 ```
 
 https://blay09.net/mods/trashslot
@@ -1100,11 +1158,13 @@ https://www.curseforge.com/minecraft/mc-mods/trashslot
 
 Adds a trash slot to the inventory screen that allows deletion of unwanted items.
 
+
 # Utamacraft
 
 ```
 Mod ID. : utamacraft
-Mod File: utamacraft-forge-1.19.2-1.0.0.jar
+Mod File: utamacraft-0.2.0-1.19.jar
+Version : 0.2.0
 ```
 
 https://git.blakerain.com/bans-minecraft/utamacraft
@@ -1112,12 +1172,15 @@ https://git.blakerain.com/bans-minecraft/utamacraft
 A mod that provides specific functionality for this server. This mod provides the following:
 
 - _Ethereal Glass_ which does not collide with the player.
+- _Tinted Ethereal Glass_ which does not collide with the player, and blocks light.
+- _Fire Ward Necklace_ which grants the player immunity to fire.
+- _Insolator_ is a block that permits the duplication of plant matter.
 
 # Waystones
 
 ```
 Mod ID  : waystones
-Mod File: waystones-forge-1.19.2-11.4.0.jar
+Mod File: waystones-forge-1.19.2-11.4.1.jar
 ```
 
 https://blay09.net/mods/waystones
@@ -1125,98 +1188,11 @@ https://www.curseforge.com/minecraft/mc-mods/waystones
 
 Teleport back to activated waystones. For Survival, Adventure or Servers.
 
-# Mod Files
-
-| Mod                              | Jar File                                           |
-| -------------------------------- | -------------------------------------------------- |
-| Advanced Peripherals             | `AdvancedPeripherals-1.19.2-0.7.28r.jar`           |
-| Apotheosis                       | `Apotheosis-1.19.2-6.2.1.jar`                      |
-| Aquaculture 2                    | `Aquaculture-1.19.2-2.4.8.jar`                     |
-| AutoRegLib                       | `AutoRegLib-1.8.2-55.jar`                          |
-| BetterF3                         | `BetterF3-4.0.0-Forge-1.19.2.jar`                  |
-| Bookshelf                        | `Bookshelf-Forge-1.19.2-16.3.20.jar`               |
-| Botania                          | `Botania-1.19.2-439-FORGE.jar`                     |
-| BotanyPots                       | `BotanyPots-Forge-1.19.2-9.0.33.jar`               |
-| BotanyTrees                      | `BotanyTrees-Forge-1.19.2-5.0.8.jar`               |
-| Clumps                           | `Clumps-forge-1.19.2-9.0.0+14.jar`                 |
-| Gateways To Eternity             | `GatewaysToEternity-1.19.2-3.2.0.jar`              |
-| Jade                             | `Jade-1.19.1-forge-8.8.1.jar`                      |
-| MOA DECOR: BATH                  | `MOAdecor+BATH+1.19.2.jar`                         |
-| MOA DECOR: SCIENCE               | `MOAdecor+SCIENCE+1.19.2.jar`                      |
-| MOA DECOR: LIGHTS                | `MOAdecor+LIGHTS+1.19.2.jar`                       |
-| MOA DECOR: GARDEN                | `MOAdecor+GARDEN+1.19.2.jar`                       |
-| MOA DECOR: ART                   | `MOAdecor+ART+1.19.2.jar`                          |
-| MOA DECOR: COOKERY               | `MOAdecor+COOKERY+1.19.2.jar`                      |
-| Mekanism                         | `Mekanism-1.19.2-10.3.8.477.jar`                   |
-| Mekanism: Generators             | `MekanismGenerators-1.19.2-10.3.8.477.jar`         |
-| Mekanism: Tools                  | `MekanismTools-1.19.2-10.3.8.477.jar`              |
-| Mouse Tweaks                     | `MouseTweaks-forge-mc1.19-2.23.jar`                |
-| OpenStairs                       | `Open+Stairs+1.19.2+v1.jar`                        |
-| Patchouli                        | `Patchouli-1.19.2-77.jar`                          |
-| Placebo                          | `Placebo-1.19.2-7.2.0.jar`                         |
-| Quark                            | `Quark-3.4-402.jar`                                |
-| Repair Anvil                     | `Repair+Anvil+1.2.0+1.19+Forge.jar`                |
-| Storage Drawers                  | `StorageDrawers-1.19-11.1.2.jar`                   |
-| TerraBlender                     | `TerraBlender-forge-1.19.2-2.0.1.136.jar`          |
-| Tool Belt                        | `ToolBelt-1.19.2-1.19.7.jar`                       |
-| Xaero's Minimap                  | `Xaeros_Minimap_23.5.0_Forge_1.19.1.jar`           |
-| Ars Elemental                    | `ars_elemental-1.19.2-0.5.9.1.0.jar`               |
-| Ars Nouveau                      | `ars_nouveau-1.19.2-3.15.1.jar`                    |
-| Artifacts                        | `artifacts-1.19.2-5.0.2.jar`                       |
-| Balm                             | `balm-forge-1.19.2-4.5.7.jar`                      |
-| Blue Skies                       | `blue_skies-1.19.2-1.3.20.jar`                     |
-| Caelus API                       | `caelus-forge-1.19.2-3.0.0.6.jar`                  |
-| Canary                           | `canary-mc1.19.2-0.2.7.jar`                        |
-| Carry On                         | `carryon-forge-1.19.2-2.0.5.16.jar`                |
-| CC: Tweaked                      | `cc-tweaked-1.19.2-1.101.2.jar`                    |
-| MrCrayfish's Furniture Mod       | `cfm-7.0.0-pre35-1.19.2.jar`                       |
-| Chunk Loaders                    | `chunkloaders-1.2.3-forge-mc1.19.jar`              |
-| Cloth Config v8 API              | `cloth-config-8.2.88-forge.jar`                    |
-| CoFH Core                        | `cofh_core-1.19.2-10.2.1.40.jar`                   |
-| Comforts                         | `comforts-forge-6.0.5+1.19.2.jar`                  |
-| Crafting On A Stick              | `crafting-on-a-stick-1.19.2-1.0.5.jar`             |
-| Create                           | `create-1.19.2-0.5.1.b.jar`                        |
-| Create Crafts & Additions        | `createaddition-1.19.2-20230527a.jar`              |
-| Creeper Overhaul                 | `creeperoverhaul-2.0.9-forge.jar`                  |
-| Curios API                       | `curios-forge-1.19.2-5.1.4.1.jar`                  |
-| Elytra Slot                      | `elytraslot-forge-6.1.1+1.19.2.jar`                |
-| GeckoLib                         | `geckolib-forge-1.19-3.1.40.jar`                   |
-| Glassential                      | `glassential-forge-1.19-1.2.4.jar`                 |
-| Guard Villagers                  | `guardvillagers-1.19.2-1.5.6.jar`                  |
-| Just Enough Items                | `jei-1.19.2-forge-11.6.0.1015.jar`                 |
-| Jumpy Boats                      | `jumpboat-1.19-0.1.0.5.jar`                        |
-| Little Logistics                 | `littlelogistics-mc1.19.2-v1.3.2.jar`              |
-| Macaw's Bridges                  | `mcw-bridges-2.0.7-mc1.19.2forge.jar`              |
-| Macaw's Doors                    | `mcw-doors-1.0.9forge-mc1.19.2.jar`                |
-| Macaw's Fences and Walls         | `mcw-fences-1.0.7-mc1.19.2forge.jar`               |
-| Macaw's Furniture                | `mcw-furniture-3.1.0-mc1.19.2forge.jar`            |
-| Macaw's Lights and Lamps         | `mcw-lights-1.0.5-mc1.19.2forge.jar`               |
-| Macaw's Paintings                | `mcw-paintings-1.0.4-mc1.19.2.jar`                 |
-| Macaw's Paths and Pavings        | `mcw-paths-1.0.3forge-mc1.19.2.jar`                |
-| Macaw's Roofs                    | `mcw-roofs-2.2.3-mc1.19.2forge.jar`                |
-| Macaw's Trapdoors                | `mcw-trapdoors-1.1.0-mc1.19.2forge.jar`            |
-| Macaw's Windows                  | `mcw-windows-2.1.1-mc1.19.2forge.jar`              |
-| Naturalist                       | `naturalist-forge-3.0.3a-1.19.2.jar`               |
-| Oculus                           | `oculus-mc1.19.2-1.6.4.jar`                        |
-| Polymorph                        | `polymorph-forge-0.46.1+1.19.2.jar`                |
-| Refined Storage                  | `refinedstorage-1.11.6.jar`                        |
-| Resourcefulconfig                | `resourcefulconfig-forge-1.19.2-1.0.20.jar`        |
-| RSRequestify                     | `rsrequestify-2.3.0.jar`                           |
-| Rubidium                         | `rubidium-0.6.2b.jar`                              |
-| Structure Gel API                | `structure_gel-1.19.2-2.7.2.jar`                   |
-| SuperMartijn642's Config Library | `supermartijn642configlib-1.1.6b-forge-mc1.19.jar` |
-| SuperMartijn642's Core Lib       | `supermartijn642corelib-1.1.9a-forge-mc1.19.2.jar` |
-| Trash Cans                       | `trashcans-1.0.17a-forge-mc1.19.jar`               |
-| TrashSlot                        | `trashslot-forge-1.19-12.0.2.jar`                  |
-| Utamacraft                       | `utamacraft-0.1.1-1.19.jar`                        |
-| Waystones                        | `waystones-forge-1.19.2-11.4.0.jar`                |
-
 # Minecraft Version
 
 The current version of Minecraft for this mod-pack is: `1.19.2`
 
 The version of Minecraft is selected based on the available versions of mods. Not all mods support all versions of Minecraft. The following tables show the mods from this mod-pack and the versions of Minecraft that are supported.
-
 ## Mod Minecraft Versions
 
 | Mod                             | 1.20.1 | 1.19.4 | 1.19.3 | 1.19.2 |
@@ -1238,6 +1214,7 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#MOA DECOR ART]]              | ✓      | ✓      |        | ✓      |
 | [[#MOA DECOR COOKERY]]          | ✓      | ✓      |        | ✓      |
 | [[#Mekanism]]                   | ✓      |        |        | ✓      |
+| [[#Mekanism Additions]]         | ✓      |        |        | ✓      |
 | [[#Mekanism Generators]]        | ✓      |        |        | ✓      |
 | [[#Mekanism Tools]]             | ✓      |        |        | ✓      |
 | [[#Mouse Tweaks]]               | ✓      | ✓      | ✓      | ✓      |
@@ -1246,7 +1223,6 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#Repair Anvil]]               | ✓      | ✓      |        | ✓      |
 | [[#Storage Drawers]]            | ✓      | ✓      | ✓      | ✓      |
 | [[#Tool Belt]]                  | ✓      | ✓      | ✓      | ✓      |
-| [[#Turtlematic]]                | ✓      | ✓      |        | ✓      |
 | [[#Xaero's Minimap]]            | ✓      | ✓      |        | ✓      |
 | [[#Ars Elemental]]              | ✓      |        |        | ✓      |
 | [[#Ars Nouveau]]                | ✓      |        |        | ✓      |
@@ -1287,10 +1263,9 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#Utamacraft]]                 |        |        |        | ✓      |
 | [[#Waystones]]                  | ✓      | ✓      | ✓      | ✓      |
 
-[^1]: Botania's [Changelog](https://botaniamod.net/changelog.html) shows that a 1.20.1 release is due to be cut soon. This will help us move the server over to Minecraft 1.20.1.
+
+[^1]: Botania's [Changelog](https://botaniamod.net/changelog.html) shows that a 1.20.1 release is due to be cut soon. However we will probably cut Botania from the modpack.
 [^2]: The update to Quark is still pending.
-[^3]: CoFH core and all Thermal update is still pending.
-[^4]: [[#Glassential]] has not seen any changes since [July 2022](https://github.com/Lykrast/Glassential) which does not fill me with confidence we're going to see a 1.20.1 release.
 
 ## Library Minecraft Versions
 
@@ -1311,3 +1286,4 @@ The version of Minecraft is selected based on the available versions of mods. No
 | [[#Structure Gel API]]                | ✓      | ✓      | ✓      | ✓      |
 | [[#SuperMartijn642's Core Lib]]       | ✓      | ✓      | ✓      | ✓      |
 | [[#SuperMartijn642's Config Library]] | ✓      | ✓      | ✓      | ✓      |
+
