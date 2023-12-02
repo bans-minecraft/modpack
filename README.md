@@ -29,6 +29,7 @@ A number of mods have seen an update to the latest version (on Minecraft 1.19.2)
 - Updated Advanced Peripherals to 0.7.32r
 - Updated Apotheosis to 6.4.1
 - Updated BetterF3 to 4.0.1
+- Updated Botania to 440
 - Updated BotanyPots to 9.0.38
 - Updated BotanyTrees to 5.0.12
 - Updated Gateways To Eternity to 3.2.2
