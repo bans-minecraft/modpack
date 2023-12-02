@@ -25,7 +25,7 @@ This version saw the addition of a pending mod:
 
 A number of mods have seen an update to the latest version (on Minecraft 1.19.2):
 
-- Updated Utamacraft to [v0.2.0](https://git.blakerain.com/bans-minecraft/utamacraft/releases/tag/v0.2.0-1.19.2), which saw the addition of the _Insolator_ and the _Fire Ward Necklace_.
+- Updated Utamacraft to [v0.2.1](https://git.blakerain.com/bans-minecraft/utamacraft/releases/tag/v0.2.1-1.19.2), which saw the addition of the _Insolator_ and the _Fire Ward Necklace_.
 - Updated Advanced Peripherals to 0.7.32r
 - Updated Apotheosis to 6.4.1
 - Updated BetterF3 to 4.0.1
