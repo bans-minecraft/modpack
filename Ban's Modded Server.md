@@ -1,4 +1,4 @@
-Current Release: 2023-12-02
+Current Release: 2023-12-03
 Minecraft Version: 1.19.2 (see the [[#Minecraft Version]] for more information)
 Forge Version: 43.3.5
 
@@ -15,7 +15,13 @@ Over the next few releases of the mod-pack we plan to make the changes described
 
 # Previous Releases
 
-## 2023-12-02 (Current Version)
+## 2023-12-03 (Current Version)
+
+This version replaces [[#Utamacraft]] with an update that fixes issues with the _Insolator_ block.
+
+- Updated [[#Utamacraft]] to [v0.2.2](https://git.blakerain.com/bans-minecraft/utamacraft/release/tag/v0.2.2-1.19.2)
+
+## 2023-12-02
 
 This version saw the addition of a pending mod:
 
