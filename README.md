@@ -21,7 +21,7 @@ The next release of the mod-pack is planned to have the following.
 
 This version replaces Utamacraft with an update that fixes issues with the _Insolator_ block.
 
-- Updated Utamacraft to [v0.2.2](https://git.blakerain.com/bans-minecraft/utamacraft/release/tag/v0.2.2-1.19.2)
+- Updated Utamacraft to [v0.2.3](https://git.blakerain.com/bans-minecraft/utamacraft/release/tag/v0.2.3-1.19.2)
 
 ## 2023-12-02
 
