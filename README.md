@@ -1,6 +1,6 @@
 # Mod Pack for Ban's Minecraft Server
 
-- Current Release: [2024-03-03]
+- Current Release: [2024-03-23]
 - Minecraft Version: 1.20.1
 - Forge Version: 47.2.0
 
@@ -10,7 +10,7 @@ For more information, see the following wiki pages:
 - Check the [Planned Changes] to the pack.
 - The [Changelog] details previous versions of the pack.
 
-[2024-03-03]: https://git.blakerain.com/bans-minecraft/modpack/releases/tag/2024-03-03
+[2024-03-23]: https://git.blakerain.com/bans-minecraft/modpack/releases/tag/2024-03-23
 [Mod List]: https://git.blakerain.com/bans-minecraft/modpack/wiki/Mod-List
 [Planned Changes]: https://git.blakerain.com/bans-minecraft/modpack/wiki/Planned-Changes
 [Changelog]: https://git.blakerain.com/bans-minecraft/modpack/wiki/Changelog
