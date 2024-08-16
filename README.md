@@ -2,7 +2,7 @@
 
 - Current Release: [2024-03-23]
 - Minecraft Version: 1.20.1
-- Forge Version: 47.2.0
+- Forge Version: 47.2.0 (download [here](https://share.blakerain.com/uploads/BlakeRain/forge-installer.jar))
 
 For more information, see the following wiki pages:
 
