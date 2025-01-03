@@ -18,7 +18,7 @@ For more information, see the following wiki pages:
 - [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage) ([wiki](https://refinedmods.com/refined-storage/))
 - [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing)
 
-[2024-01-03]: https://github.com/bans-minecraft/modpack/releases/tag/2025-01-03
+[2025-01-03]: https://github.com/bans-minecraft/modpack/releases/tag/2025-01-03
 [Changelog]: https://github.com/bans-minecraft/modpack/wiki/Changelog
 [Mod List]: https://github.com/bans-minecraft/modpack/wiki/Mod-List
 [Planned Changes]: https://github.com/bans-minecraft/modpack/wiki/Planned-Changes
