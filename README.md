@@ -1,6 +1,6 @@
 # Mod Pack for Ban's Minecraft Server
 
-- Current Release: [2024-12-31] (see the [Changelog])
+- Current Release: [2025-01-03] (see the [Changelog])
 - Minecraft Version: 1.20.1
 - Forge Version: 47.3.0 (download [here](https://share.blakerain.com/uploads/BlakeRain/forge-installer.jar))
 
@@ -18,7 +18,7 @@ For more information, see the following wiki pages:
 - [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage) ([wiki](https://refinedmods.com/refined-storage/))
 - [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing)
 
-[2024-12-31]: https://github.com/bans-minecraft/modpack/releases/tag/2024-12-31
+[2024-01-03]: https://github.com/bans-minecraft/modpack/releases/tag/2025-01-03
 [Changelog]: https://github.com/bans-minecraft/modpack/wiki/Changelog
 [Mod List]: https://github.com/bans-minecraft/modpack/wiki/Mod-List
 [Planned Changes]: https://github.com/bans-minecraft/modpack/wiki/Planned-Changes
